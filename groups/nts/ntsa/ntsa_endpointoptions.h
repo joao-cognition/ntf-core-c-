@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide options to get an endpoint from a host and port.

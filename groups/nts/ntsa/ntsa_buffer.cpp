@@ -44,7 +44,7 @@ BSLS_IDENT_RCSID(ntsa_buffer_cpp, "$Id$ $CSID$")
 #define NTSA_BUFFER_OFFSETOF(Type, member) offsetof(Type, member)
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bool MutableBuffer::validate() const

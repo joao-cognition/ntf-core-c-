@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_inline.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -143,5 +143,5 @@ ntcs::DetachGoal::Value DetachState::goal() const
 }
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

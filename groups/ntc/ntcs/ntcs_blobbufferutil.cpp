@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntcs_blobbufferutil_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 size_t BlobBufferUtil::calculateNumBytesToAllocate(size_t size,

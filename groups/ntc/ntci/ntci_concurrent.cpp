@@ -19,7 +19,7 @@
 BSLS_IDENT_RCSID(ntci_concurrent_cpp, "$Id$ $CSID$")
 
 #if NTC_BUILD_WITH_COROUTINES
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 ntci::Concurrent::Execute Concurrent::resume(
@@ -585,5 +585,5 @@ void Concurrent::Close::Awaiter::complete(
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

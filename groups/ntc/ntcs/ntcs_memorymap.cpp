@@ -54,7 +54,7 @@ BSLS_IDENT_RCSID(ntcs_memorymap_cpp, "$Id$ $CSID$")
 // clang-format on
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 #if defined(BSLS_PLATFORM_OS_UNIX)

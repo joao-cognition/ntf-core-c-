@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntci_getipaddresscallbackfactory_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 GetIpAddressCallbackFactory::~GetIpAddressCallbackFactory()

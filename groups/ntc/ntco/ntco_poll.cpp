@@ -144,7 +144,7 @@ BSLS_IDENT_RCSID(ntco_poll_cpp, "$Id$ $CSID$")
 #define NTCO_POLL_LOG_REMOVE(handle)                                          \
     NTCI_LOG_TRACE("Descriptor %d removed", handle)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// Provide an implementation of the 'ntci::Reactor' interface

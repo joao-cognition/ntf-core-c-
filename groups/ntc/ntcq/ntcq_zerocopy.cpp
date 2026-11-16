@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntcq_zerocopy_cpp, "$Id$ $CSID$")
 #include <ntci_log.h>
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 bsl::ostream& ZeroCopyRange::print(bsl::ostream& stream,

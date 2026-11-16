@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntcs_processmetrics_cpp, "$Id$ $CSID$")
 #include <bslmt_lockguard.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 const ntci::MetricMetadata ProcessMetrics::STATISTICS[] = {

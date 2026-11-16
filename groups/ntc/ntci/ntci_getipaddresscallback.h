@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_ipaddress.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Resolver;
 }
@@ -49,5 +49,5 @@ typedef ntci::Callback<void(const bsl::shared_ptr<ntci::Resolver>& resolver,
 typedef GetIpAddressCallback::FunctionType GetIpAddressFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

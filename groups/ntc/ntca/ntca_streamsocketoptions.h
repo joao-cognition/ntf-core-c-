@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_timeinterval.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe the configuration of a stream socket.

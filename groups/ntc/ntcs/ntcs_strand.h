@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_list.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -105,5 +105,5 @@ class Strand : public ntci::Strand, public ntccfg::Shared<Strand>
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

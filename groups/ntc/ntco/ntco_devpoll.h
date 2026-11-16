@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #if NTC_BUILD_WITH_DEVPOLL
 #if defined(BSLS_PLATFORM_OS_SOLARIS)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// @internal @brief

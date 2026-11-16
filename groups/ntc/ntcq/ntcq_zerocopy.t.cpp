@@ -25,9 +25,9 @@ BSLS_IDENT_RCSID(ntcq_zerocopy_t_cpp, "$Id$ $CSID$")
 #include <ntcq_send.h>
 #include <ntcs_datapool.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 // Provide tests for 'ntcq::ZeroCopyQueue'.
@@ -1263,4 +1263,4 @@ NTSCFG_TEST_FUNCTION(ntcq::ZeroCopyTest::verifyCase14)
 }
 
 }  // close namespace ntcq
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

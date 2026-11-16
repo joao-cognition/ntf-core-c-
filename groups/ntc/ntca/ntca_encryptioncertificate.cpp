@@ -31,7 +31,7 @@ BSLS_IDENT_RCSID(ntca_encryptioncertificate_cpp, "$Id$ $CSID$")
 #include <bsl_iomanip.h>
 #include <bsl_iostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 EncryptionCertificateObject::EncryptionCertificateObject(

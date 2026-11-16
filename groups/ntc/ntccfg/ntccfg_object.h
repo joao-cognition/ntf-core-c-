@@ -31,7 +31,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_cstdio.h>
 #include <bsl_cstdlib.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 #if defined(BDE_BUILD_TARGET_OPT)

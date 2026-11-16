@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://github.com/joao-cognition/ntf-core-c-">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/brand/ntf_logo_label_dark.svg">
+      <img src="docs/brand/ntf_logo_label.svg" width="70%" alt="BNP Paribas">
+    </picture>
+  </a>
+</p>
+
+[![Platform](https://img.shields.io/badge/BNP%20Paribas-Network%20Transport-00915A)](#)
+[![License](https://img.shields.io/badge/License-Apache_2.0-00915A)](LICENSE)
+[![C++](https://img.shields.io/badge/C++-00915A)](#)
+
 ## The Network Transport Framework: Core Libraries
 
 The Network Transport Framework (NTF) is an open-source collection of libraries
@@ -413,14 +426,14 @@ Next, install the [BDE build system](https://github.com/bloomberg/bde-tools).
 Ensure the directory containing the BDE build system executables is included in
 the PATH environment variable.
 
-Next, build and install the [BDE libraries](https://github.com/bloomberg/bde).
+Next, build and install the [BDE libraries](https://github.com/joao-cognition/bde-c-).
 
 When all prerequisites are satisfied, perform the following steps to build,
 test, and install the binary artifacts of this repository:
 
 1. Clone the repository.
 ```
-    $ git clone https://github.com/bloomberg/ntf-core <path/to/ntf-core>
+    $ git clone https://github.com/joao-cognition/ntf-core-c- <path/to/ntf-core>
     $ cd <path/to/ntf/core>
 ```
 
@@ -461,7 +474,7 @@ Next, install the [BDE build system](https://github.com/bloomberg/bde-tools).
 Ensure the directory containing the BDE build system executables is included in
 the PATH environment variable.
 
-Next, build and install the [BDE libraries](https://github.com/bloomberg/bde).
+Next, build and install the [BDE libraries](https://github.com/joao-cognition/bde-c-).
 
 When all prerequisites are satisfied, perform the following steps to build,
 test, and install the binary artifacts of this repository:
@@ -470,7 +483,7 @@ test, and install the binary artifacts of this repository:
 
 2. Clone the repository.
 ```
-    $ git clone https://github.com/bloomberg/ntf-core <path/to/ntf-core>
+    $ git clone https://github.com/joao-cognition/ntf-core-c- <path/to/ntf-core>
     $ cd <path/to/ntf/core>
 ```
 
@@ -519,7 +532,7 @@ ask a question or a report a bug. Create a [pull request](../../pulls) to
 propose a change to the code in this repository. Contributors are expected to
 follow a [code of conduct](https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md).
 If you have any concerns about this code, or behavior which you have
-experienced in the project, please contact us at opensource@bloomberg.net.
+experienced in the project, please contact us at opensource@bnpparibas.com.
 
 #### Developer's Certificate of Origin
 
@@ -548,7 +561,7 @@ contributions).
 #### Reporting Security Vulnerabilities
 
 If you believe you have identified a security vulnerability in this project,
-please send email to the project team at opensource@bloomberg.net, detailing
+please send email to the project team at opensource@bnpparibas.com, detailing
 the suspected issue and any methods you've found to reproduce it.
 
 Please do *not* open an issue in the GitHub repository, as we'd prefer to keep
@@ -568,7 +581,7 @@ All source code in this repository is distributed under the
 
 This project has adopted a [code of conduct](https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md).
 If you have any concerns about this code, or behavior which you have
-experienced in the project, please contact us at opensource@bloomberg.net.
+experienced in the project, please contact us at opensource@bnpparibas.com.
 
 ---
 
@@ -581,10 +594,10 @@ More detailed information is available on certain topics.
 NTF is collection of BDE-style libraries built on top of BDE.  For more
 information about the BDE framework, please see:
 
-- [BDE Repository](http://github.com/bloomberg/bde)
-- [BDE Wiki](http://github.com/bloomberg/bde/wiki)
-- [BDE Mission Statement](http://github.com/bloomberg/bde/wiki/Mission-Statement)
-- [BDE Quick-Start Guide](http://github.com/bloomberg/bde/wiki/Getting-Started)
+- [BDE Repository](http://github.com/joao-cognition/bde-c-)
+- [BDE Wiki](http://github.com/joao-cognition/bde-c-/wiki)
+- [BDE Mission Statement](http://github.com/joao-cognition/bde-c-/wiki/Mission-Statement)
+- [BDE Quick-Start Guide](http://github.com/joao-cognition/bde-c-/wiki/Getting-Started)
 
 <sub><sup>
 Jump to

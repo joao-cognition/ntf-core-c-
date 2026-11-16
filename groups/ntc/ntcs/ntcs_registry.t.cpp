@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_registry_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_registry.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Registry'.
@@ -216,15 +216,15 @@ RegistryTest::ExecutorMock::~ExecutorMock() BSLS_KEYWORD_NOEXCEPT
 }
 
 void RegistryTest::ExecutorMock::execute(
-    const BloombergLP::ntci::Executor::Functor& functor)
+    const BNP_Paribas::ntci::Executor::Functor& functor)
 {
     NTSCFG_TEST_ASSERT(d_executeExpected && "not expected to be called");
     d_executeExpected = false;
 }
 
 void RegistryTest::ExecutorMock::moveAndExecute(
-    BloombergLP::ntci::Executor::FunctorSequence* functorSequence,
-    const BloombergLP::ntci::Executor::Functor&   functor)
+    BNP_Paribas::ntci::Executor::FunctorSequence* functorSequence,
+    const BNP_Paribas::ntci::Executor::Functor&   functor)
 {
     NTSCFG_TEST_ASSERT(false && "not expected to be called");
 }
@@ -543,4 +543,4 @@ NTSCFG_TEST_FUNCTION(ntcs::RegistryTest::verifyCase7)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

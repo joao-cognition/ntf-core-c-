@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcf_test_t_cpp, "$Id$ $CSID$")
 
 #include <ntcf_test.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 // Provide tests for 'ntcf::Test'.
@@ -137,7 +137,7 @@ NTSCFG_TEST_FUNCTION(ntcf::TestTest::verify)
 }
 
 }  // close namespace ntcf
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #if !defined(BSLS_PLATFORM_OS_SOLARIS)
 

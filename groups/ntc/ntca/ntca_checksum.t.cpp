@@ -25,9 +25,9 @@ BSLS_IDENT_RCSID(ntca_checksum_t_cpp, "$Id$ $CSID$")
 #include <zlib.h>
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 // Provide tests for 'ntca::Checksum'.
@@ -851,4 +851,4 @@ NTSCFG_TEST_FUNCTION(ntca::ChecksumTest::verifyPrint)
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

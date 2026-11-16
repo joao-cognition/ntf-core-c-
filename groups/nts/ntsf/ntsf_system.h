@@ -37,7 +37,7 @@ BSLS_IDENT("$Id: $")
 #include <bslma_managedptr.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsf {
 
 /// Provide a factory for objects implemented by the system.

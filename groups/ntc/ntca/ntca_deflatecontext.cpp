@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_deflatecontext_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool DeflateContext::equals(const DeflateContext& other) const
@@ -77,4 +77,4 @@ bsl::ostream& DeflateContext::print(bsl::ostream& stream,
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

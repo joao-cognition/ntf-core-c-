@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_detachstate_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_detachstate.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::DetachState'.
@@ -47,4 +47,4 @@ NTSCFG_TEST_FUNCTION(ntcs::DetachStateTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

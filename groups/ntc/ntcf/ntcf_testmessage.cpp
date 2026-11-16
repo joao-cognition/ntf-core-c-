@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntcf_testmessage_cpp, "$Id$ $CSID$")
 
 #include <ntcs_blobutil.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 ntsa::Error TestMessage::decode(bdlbb::Blob*         source,

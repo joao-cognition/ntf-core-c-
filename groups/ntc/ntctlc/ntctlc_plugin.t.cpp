@@ -26,9 +26,9 @@ BSLS_IDENT_RCSID(ntctlc_plugin_t_cpp, "$Id$ $CSID$")
 
 #include <limits.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctlc {
 
 // Uncomment to test only a specific parameter variation.
@@ -1503,4 +1503,4 @@ NTSCFG_TEST_FUNCTION(ntctlc::PluginTest::verifyMalformed)
 }
 
 }  // close namespace ntctlc
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

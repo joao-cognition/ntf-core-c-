@@ -32,7 +32,7 @@ BSLS_IDENT("$Id: $")
 #endif
 
 #if NTSO_EPOLL_ENABLED
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntso {
 
 /// @internal @brief

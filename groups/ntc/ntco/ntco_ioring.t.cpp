@@ -27,7 +27,7 @@ BSLS_IDENT_RCSID(ntco_ioring_t_cpp, "$Id$ $CSID$")
 #include <ntco_test.h>
 #include <ntsf_system.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 #if NTC_BUILD_WITH_IORING
 
@@ -59,7 +59,7 @@ using namespace BloombergLP;
 
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::IoRing'.
@@ -206,5 +206,5 @@ NTSCFG_TEST_FUNCTION(ntco::IoRingTest::verifyCase4)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 

@@ -164,7 +164,7 @@ BSLS_IDENT_RCSID(ntcp_datagramsocket_cpp, "$Id$ $CSID$")
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcp {
 
 void DatagramSocket::processSocketReceived(const ntsa::Error&          error,

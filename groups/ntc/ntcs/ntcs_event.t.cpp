@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_event_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_event.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Event'.
@@ -503,4 +503,4 @@ NTSCFG_TEST_FUNCTION(ntcs::EventTest::verifyCase4)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

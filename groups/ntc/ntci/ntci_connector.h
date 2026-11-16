@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_endpoint.h>
 #include <ntsa_error.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to connect to a remote endpoint.
@@ -93,5 +93,5 @@ class Connector : public ntci::ConnectCallbackFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

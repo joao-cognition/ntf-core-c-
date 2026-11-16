@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntci_log_t_cpp, "$Id$ $CSID$")
 #include <ntsa_sendcontext.h>
 #include <ntsa_sendoptions.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // Provide tests for 'ntci::Log'.
@@ -99,4 +99,4 @@ NTSCFG_TEST_FUNCTION(ntci::LogTest::verifyCase2)
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

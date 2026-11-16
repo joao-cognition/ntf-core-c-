@@ -44,7 +44,7 @@ BSLS_IDENT_RCSID(ntsa_guid_cpp, "$Id$ $CSID$")
 #include <ws2tcpip.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 class Guid::Impl

@@ -148,7 +148,7 @@ BSLS_IDENT_RCSID(ntso_kqueue_cpp, "$Id$ $CSID$")
 #define NTSO_KQUEUE_LOG_REMOVE(handle)                                        \
     BSLS_LOG_TRACE("Descriptor %d removed", handle)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntso {
 
 /// @brief @internal

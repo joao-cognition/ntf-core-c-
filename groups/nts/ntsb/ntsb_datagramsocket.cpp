@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntsb_datagramsocket_cpp, "$Id$ $CSID$")
 #include <ntsu_socketoptionutil.h>
 #include <ntsu_socketutil.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 DatagramSocket::DatagramSocket()

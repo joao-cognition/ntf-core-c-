@@ -21,9 +21,9 @@ BSLS_IDENT_RCSID(ntco_pollset_t_cpp, "$Id$ $CSID$")
 #include <ntco_pollset.h>
 #include <ntco_test.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::Pollset'.
@@ -77,4 +77,4 @@ NTSCFG_TEST_FUNCTION(ntco::PollsetTest::verifyFunctions)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

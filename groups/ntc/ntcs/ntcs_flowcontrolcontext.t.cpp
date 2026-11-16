@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_flowcontrolcontext_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_flowcontrolcontext.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::FlowControlContext'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcs::FlowControlContextTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

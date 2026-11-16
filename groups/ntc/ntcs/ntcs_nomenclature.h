@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -54,5 +54,5 @@ class Nomenclature
 };
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

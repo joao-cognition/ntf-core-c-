@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntsa_data_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_temporary.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Data'.
@@ -964,4 +964,4 @@ NTSCFG_TEST_FUNCTION(ntsa::DataTest::verifyCase36)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

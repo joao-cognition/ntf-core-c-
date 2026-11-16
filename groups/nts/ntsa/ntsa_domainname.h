@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_iosfwd.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a representation of a Domain Name.

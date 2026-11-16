@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_cstddef.h>
 #include <bsl_cstdint.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntscfg {
 
 // The build platform name.

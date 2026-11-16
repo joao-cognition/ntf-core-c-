@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntsa_backoff_cpp, "$Id$ $CSID$")
 #include <bslim_printer.h>
 #include <bsl_c_math.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 Backoff::Backoff()
@@ -408,4 +408,4 @@ bool operator<(const Backoff& lhs, const Backoff& rhs)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

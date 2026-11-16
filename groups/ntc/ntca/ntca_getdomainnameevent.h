@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe an event detected for an operation to get the domain name to which

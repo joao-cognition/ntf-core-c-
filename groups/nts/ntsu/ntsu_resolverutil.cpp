@@ -53,7 +53,7 @@ BSLS_IDENT_RCSID(ntsu_resolverutil_cpp, "$Id$ $CSID$")
 #include <bsl_cstring.h>
 #include <bsl_functional.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// Provide a private implementation.

@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntsb_streamsocket_t_cpp, "$Id$ $CSID$")
 #include <ntsu_adapterutil.h>
 #include <ntsu_socketutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 // Provide tests for 'ntsb::StreamSocket'.
@@ -598,4 +598,4 @@ void StreamSocketTest::receiveBlob(
 }
 
 }  // close namespace ntsb
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

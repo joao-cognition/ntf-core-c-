@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_objectbuffer.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Refer to a mechanism that implements a driver.

@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcf_testmessage.h>
 #include <ntcf_testvocabulary.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 /// Provide a test client transaction.
@@ -866,5 +866,5 @@ typedef bsl::shared_ptr<ntcf::TestClient> TestClientPtr;
 typedef bsl::vector<ntcf::TestClientPtr> TestClientVector;
 
 }  // end namespace ntcf
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

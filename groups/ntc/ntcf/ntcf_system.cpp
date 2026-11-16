@@ -80,7 +80,7 @@ BSLS_IDENT_RCSID(ntcf_system_cpp, "$Id$ $CSID$")
     BSLS_LOG_FATAL("Invalid configuration: unsupported driver name '%s'",     \
                    driverName.c_str());
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 /// Provide functions to implement 'ntcf::System'.

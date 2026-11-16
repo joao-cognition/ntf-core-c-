@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntcs_strand_t_cpp, "$Id$ $CSID$")
 #include <ntci_executor.h>
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Strand'.
@@ -984,4 +984,4 @@ NTSCFG_TEST_FUNCTION(ntcs::StrandTest::verifyCase2)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

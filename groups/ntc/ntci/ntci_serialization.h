@@ -49,7 +49,7 @@ BSLS_IDENT("$Id: $")
 #include <balxml_encoderoptions.h>
 #include <balxml_minireader.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide a mechanism to serialize and deserialize introspectible types.
@@ -284,5 +284,5 @@ ntsa::Error Serialization::decode(TYPE*                          destination,
 }
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

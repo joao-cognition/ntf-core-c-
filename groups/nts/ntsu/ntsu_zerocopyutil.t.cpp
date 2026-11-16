@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsu_zerocopyutil_t_cpp, "$Id$ $CSID$")
 
 #include <ntsu_zerocopyutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 // Provide tests for 'ntsu::ZeroCopyUtil'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntsu::ZeroCopyUtilTest::verify)
 }
 
 }  // close namespace ntsu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

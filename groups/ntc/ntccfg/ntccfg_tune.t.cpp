@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntccfg_tune_t_cpp, "$Id$ $CSID$")
 
 #include <ntccfg_tune.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Tune'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::TuneTest::verify)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -53,7 +53,7 @@ BSLS_IDENT("$Id: $")
 // Undefine or set to 0 to use a linked list.
 #define NTCS_CHRONOLOGY_USE_FUNCTOR_QUEUE_VECTOR 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 class Chronology;
 }

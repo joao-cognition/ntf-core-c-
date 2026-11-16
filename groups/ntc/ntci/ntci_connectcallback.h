@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_callback.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Connector;
 }
@@ -44,5 +44,5 @@ typedef ntci::Callback<void(const bsl::shared_ptr<ntci::Connector>& connector,
 typedef ConnectCallback::FunctionType ConnectFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

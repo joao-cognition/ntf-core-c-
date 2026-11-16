@@ -127,7 +127,7 @@ BSLS_IDENT_RCSID(ntso_poll_cpp, "$Id$ $CSID$")
 #pragma error_messages(off, SEC_NULL_PTR_DEREF)
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntso {
 
 /// @brief @internal

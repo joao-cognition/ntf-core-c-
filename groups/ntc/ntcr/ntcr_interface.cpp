@@ -71,7 +71,7 @@ BSLS_IDENT_RCSID(ntcr_interface_cpp, "$Id$ $CSID$")
                    (int)(numThreads),                                         \
                    (int)(config.maxThreads()))
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 void* Interface::run(void* context)

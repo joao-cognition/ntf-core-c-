@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_socketinfo_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_socketinfo.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::SocketInfo'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntsa::SocketInfoTest::verify)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

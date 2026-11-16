@@ -100,7 +100,7 @@ BSLS_IDENT_RCSID(ntcs_strand_cpp, "$Id$ $CSID$")
 // achieves 2,000,000 functors per second, but typically only runs on three or
 // four threads.
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 void Strand::invoke()

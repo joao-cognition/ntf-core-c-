@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_encryptionserverfactory.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to a system of authentication and encryption.

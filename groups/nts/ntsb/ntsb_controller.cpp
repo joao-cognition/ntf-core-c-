@@ -86,7 +86,7 @@ BSLS_IDENT_RCSID(ntsb_controller_cpp, "$Id$ $CSID$")
 
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 Controller::Controller()

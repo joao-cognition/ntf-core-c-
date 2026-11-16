@@ -128,7 +128,7 @@ BSLS_IDENT_RCSID(ntco_devpoll_cpp, "$Id$ $CSID$")
                    found,                                                     \
                    error.text().c_str())
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 class Devpoll : public ntci::Reactor,

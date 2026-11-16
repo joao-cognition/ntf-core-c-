@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_sendtoken_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bsl::ostream& SendToken::print(bsl::ostream& stream,

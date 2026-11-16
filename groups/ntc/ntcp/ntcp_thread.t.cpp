@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntcp_thread_t_cpp, "$Id$ $CSID$")
 #include <ntcd_simulation.h>
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcp {
 
 // Provide tests for 'ntcp::Thread'.
@@ -194,4 +194,4 @@ NTSCFG_TEST_FUNCTION(ntcp::ThreadTest::verifyCase2)
 }
 
 }  // close namespace ntcp
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -69,7 +69,7 @@ BSLS_IDENT_RCSID(ntcu_listenersocketeventqueue_cpp, "$Id$ $CSID$")
             << " event " << (event) << NTCI_LOG_STREAM_END;                   \
     } while (false)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 void ListenerSocketEventQueue::processListenerSocketEstablished(

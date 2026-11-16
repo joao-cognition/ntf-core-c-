@@ -40,7 +40,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_unordered_map.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 class Uri;

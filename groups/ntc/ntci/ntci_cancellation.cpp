@@ -15,7 +15,7 @@
 
 #include <ntci_cancellation.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 bsl::shared_ptr<ntci::Cancellation>* const k_UNCANCELLABLE = 0;

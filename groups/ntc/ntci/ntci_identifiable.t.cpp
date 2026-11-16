@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntci_identifiable_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_identifiable.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // Provide tests for 'ntci::Identifiable'.
@@ -49,4 +49,4 @@ NTSCFG_TEST_FUNCTION(ntci::IdentifiableTest::verify)
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

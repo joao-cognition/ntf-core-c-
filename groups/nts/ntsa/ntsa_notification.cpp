@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_notification_cpp, "$Id$ $CSID$")
 
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 Notification::Notification(const Notification& original)

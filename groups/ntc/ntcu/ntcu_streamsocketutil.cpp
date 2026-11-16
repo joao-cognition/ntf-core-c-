@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntcu_streamsocketutil_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 ntsa::Error StreamSocketUtil::getTransport(ntsa::Transport::Value* result,

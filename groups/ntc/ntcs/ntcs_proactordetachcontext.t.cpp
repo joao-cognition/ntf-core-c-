@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_proactordetachcontext_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_proactordetachcontext.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::ProactorDetachContext'.
@@ -287,4 +287,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ProactorDetachContextTest::verifyCase4)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsd_message_t_cpp, "$Id$ $CSID$")
 
 #include <ntsd_message.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsd {
 
 // Provide tests for 'ntsd::Message'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntsd::MessageTest::verify)
 }
 
 }  // close namespace ntsd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

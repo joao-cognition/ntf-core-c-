@@ -30,7 +30,7 @@
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 const bsl::size_t Validation::k_TYPICAL_NAME_LENGTH                  = 128;

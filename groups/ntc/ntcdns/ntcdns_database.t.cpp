@@ -25,9 +25,9 @@ BSLS_IDENT_RCSID(ntcdns_database_t_cpp, "$Id$ $CSID$")
 #include <ntci_log.h>
 #include <ntsa_host.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 // Provide tests for 'ntcdns::Database'.
@@ -291,7 +291,7 @@ ntsa::Error DatabaseTest::HostDatabase::addHostEntry(
 
     // Silently skip entries with canonical hostnames like
     // "bnjp2-pl4sp29-portEthernet22/1". On some /etc/hosts files on some
-    // Bloomberg machines, there are many of these entries.
+    // BNP Paribas machines, there are many of these entries.
 
     if (entry.canonicalHostname().find('/') != bsl::string::npos) {
         return ntsa::Error(ntsa::Error::e_INVALID);
@@ -2157,4 +2157,4 @@ NTSCFG_TEST_FUNCTION(ntcdns::DatabaseTest::verifyCase4)
 }
 
 }  // close namespace ntcdns
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

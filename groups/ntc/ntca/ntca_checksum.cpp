@@ -35,7 +35,7 @@ BSLS_IDENT_RCSID(ntca_checksum_cpp, "$Id$ $CSID$")
 #include <zlib.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 ChecksumAdler32::ChecksumAdler32()
@@ -971,4 +971,4 @@ bsl::ostream& Checksum::print(bsl::ostream& stream,
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

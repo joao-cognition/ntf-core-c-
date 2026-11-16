@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_callback.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Define a type alias for callback invoked on a optional
@@ -40,5 +40,5 @@ typedef ntci::Callback<void()> CloseCallback;
 typedef CloseCallback::FunctionType CloseFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

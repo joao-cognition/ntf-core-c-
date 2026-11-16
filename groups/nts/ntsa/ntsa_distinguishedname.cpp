@@ -26,7 +26,7 @@ BSLS_IDENT_RCSID(ntsa_distinguisedname_cpp, "$Id$ $CSID$")
 #include <bsl_cstdio.h>
 #include <bsl_streambuf.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 const char* const DistinguishedName::k_OID_TABLE[9] =

@@ -273,7 +273,7 @@ BSLS_IDENT_RCSID(ntcr_streamsocket_cpp, "$Id$ $CSID$")
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 const bsl::size_t StreamSocket::k_ZERO_COPY_NEVER = (bsl::size_t)(-1);

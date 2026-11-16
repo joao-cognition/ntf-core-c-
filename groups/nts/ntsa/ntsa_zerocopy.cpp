@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntsa_zerocopy_cpp, "$Id$ $CSID$")
 #include <bdlb_string.h>
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 int ZeroCopyType::fromInt(ZeroCopyType::Value* result, int number)

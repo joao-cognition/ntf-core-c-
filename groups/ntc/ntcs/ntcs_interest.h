@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Describe the interest in socket events.

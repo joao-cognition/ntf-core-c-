@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #if NTC_BUILD_WITH_KQUEUE
 #if defined(BSLS_PLATFORM_OS_DARWIN) || defined(BSLS_PLATFORM_OS_FREEBSD)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// @internal @brief

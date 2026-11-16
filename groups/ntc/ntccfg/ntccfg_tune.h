@@ -25,12 +25,12 @@ BSLS_IDENT("$Id: $")
 #include <bsls_types.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Initialize the specified 'variable' having the specified 'name'.
 #define NTCCFG_TUNE(variable, name)                                           \
-    BloombergLP::ntccfg::Tune::configure(variable, #name, name##_DEFAULT)
+    BNP_Paribas::ntccfg::Tune::configure(variable, #name, name##_DEFAULT)
 
 // Get the value of the tunable identified by the specified 'name'.
 #define NTCCFG_TUNE_GET(name) s_##name
@@ -41,7 +41,7 @@ namespace ntccfg {
     type initialize_##name()                                                  \
     {                                                                         \
         type value;                                                           \
-        BloombergLP::ntccfg::Tune::configure(&value, #name, name);            \
+        BNP_Paribas::ntccfg::Tune::configure(&value, #name, name);            \
         return value;                                                         \
     }                                                                         \
                                                                               \

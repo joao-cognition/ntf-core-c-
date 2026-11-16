@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 
 #if NTC_BUILD_WITH_POLL
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// @internal @brief

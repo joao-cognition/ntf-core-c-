@@ -28,7 +28,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsscm_version.h>
 #include <bsls_timeinterval.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// @internal @brief
@@ -368,5 +368,5 @@ class SocketOptionUtil
 };
 
 }  // end namespace ntsu
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

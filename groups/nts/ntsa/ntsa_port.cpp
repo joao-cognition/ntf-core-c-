@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntsa_port_cpp, "$Id$ $CSID$")
 #include <bsl_cstdlib.h>
 #include <bsl_cstring.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bsl::size_t PortUtil::format(char*       destination,

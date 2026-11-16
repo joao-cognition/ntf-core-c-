@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsi_descriptor.h>
 #include <ntsi_streamsocket.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// @internal @brief
@@ -154,5 +154,5 @@ const bsl::shared_ptr<void>& ProactorSocketBase::getProactorContext() const
 }
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

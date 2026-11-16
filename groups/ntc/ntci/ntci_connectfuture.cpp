@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntci_connectfuture_cpp, "$Id$ $CSID$")
 #define NTCI_CONNECTFUTURE_TIMEOUT -1
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 void ConnectFuture::arrive(const bsl::shared_ptr<ntci::Connector>& connector,

@@ -21,9 +21,9 @@ BSLS_IDENT_RCSID(ntco_eventport_t_cpp, "$Id$ $CSID$")
 #include <ntco_eventport.h>
 #include <ntco_test.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::EventPort'.
@@ -77,4 +77,4 @@ NTSCFG_TEST_FUNCTION(ntco::EventPortTest::verifyFunctions)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

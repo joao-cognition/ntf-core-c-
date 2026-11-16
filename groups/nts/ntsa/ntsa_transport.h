@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bdlat_enumfunctions.h>
 #include <bdlat_typetraits.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration of the socket transport security protocols.
@@ -543,5 +543,5 @@ NTSCFG_INLINE void hashAppend(HASH_ALGORITHM&       algorithm,
 
 BDLAT_DECL_ENUMERATION_TRAITS(ntsa::Transport)
 
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

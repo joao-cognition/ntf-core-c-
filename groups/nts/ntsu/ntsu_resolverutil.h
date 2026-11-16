@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// @internal @brief
@@ -104,5 +104,5 @@ class ResolverUtil
 };
 
 }  // end namespace ntsu
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -38,7 +38,7 @@ BSLS_IDENT("$Id: $")
 #include <bslmt_mutex.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -1806,5 +1806,5 @@ void Dispatch::announceNotifications(
 }
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

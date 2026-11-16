@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_platform.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a representation of a system error.

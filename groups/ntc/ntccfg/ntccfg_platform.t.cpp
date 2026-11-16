@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntccfg_platform_t_cpp, "$Id$ $CSID$")
 
 #include <ntccfg_platform.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Platform'.
@@ -92,4 +92,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::PlatformTest::verifySafeString)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

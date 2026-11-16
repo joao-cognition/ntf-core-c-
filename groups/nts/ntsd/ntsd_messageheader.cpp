@@ -18,7 +18,7 @@
 #include <bslim_printer.h>
 #include <bslmf_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsd {
 
 BSLMF_ASSERT(sizeof(ntsd::MessageHeader) == 64);

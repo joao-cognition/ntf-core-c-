@@ -33,7 +33,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_error.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to upgrade the security of a transport.
@@ -154,5 +154,5 @@ class Upgradable : public ntci::UpgradeCallbackFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

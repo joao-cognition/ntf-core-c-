@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntsa_shutdownmode_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 int ShutdownMode::fromInt(ShutdownMode::Value* result, int number)

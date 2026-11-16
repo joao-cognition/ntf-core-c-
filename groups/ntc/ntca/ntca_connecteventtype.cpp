@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntca_connecteventtype_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 int ConnectEventType::fromInt(ConnectEventType::Value* result, int number)

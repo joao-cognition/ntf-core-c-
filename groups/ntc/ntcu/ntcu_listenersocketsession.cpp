@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntcu_listenersocketsession_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 ListenerSocketSession::ListenerSocketSession(

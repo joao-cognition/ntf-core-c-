@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_dispatch_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_dispatch.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Dispatch'.
@@ -333,4 +333,4 @@ NTSCFG_TEST_FUNCTION(ntcs::DispatchTest::verifyCase4)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

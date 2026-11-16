@@ -63,7 +63,7 @@ BSLS_IDENT_RCSID(ntcs_chronology_cpp, "$Id$ $CSID$")
 
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 NTCCFG_INLINE_NEVER

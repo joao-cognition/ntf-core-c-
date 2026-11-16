@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntcf_testserver_cpp, "$Id$ $CSID$")
 
 #define NTCF_TESTCLIENT_DATAGRAM_SOCKET_ENABLED 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 #define NTCF_TESTSERVER_LOG_DATAGRAM_SOCKET_ESTABLISHED(datagramSocket)       \
@@ -2097,5 +2097,5 @@ const ntsa::Endpoint& TestServer::udpEndpoint() const
 }
 
 }  // end namespace ntcf
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

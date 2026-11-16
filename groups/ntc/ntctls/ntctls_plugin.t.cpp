@@ -55,7 +55,7 @@ BSLS_IDENT_RCSID(ntctls_plugin_t_cpp, "$Id$ $CSID$")
 #include <ntsf_system.h>
 #include <bslim_printer.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 #if NTC_BUILD_WITH_OPENSSL
 
@@ -68,7 +68,7 @@ using namespace BloombergLP;
 #define NTCTLS_PLUGIN_TEST_LOG_CONTEXT_GUARD_SERVER()                         \
     NTCI_LOG_CONTEXT_GUARD_OWNER("server")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctls {
 
 // Provide utilties for key tests.
@@ -742,7 +742,7 @@ void CertificateTest::verifyAuthorityOptions(
 
     ntsa::DistinguishedName authorityIdentity;
     authorityIdentity["CN"] = "TEST.AUTHORITY";
-    authorityIdentity["O"]  = "Bloomberg LP";
+    authorityIdentity["O"]  = "BNP Paribas";
 
     // Define the authority private key generation configuration.
 
@@ -819,7 +819,7 @@ void CertificateTest::verifyUserSignedBySelfOptions(
 
     ntsa::DistinguishedName userIdentity;
     userIdentity["CN"] = "TEST.USER";
-    userIdentity["O"]  = "Bloomberg LP";
+    userIdentity["O"]  = "BNP Paribas";
 
     // Define the user private key generation configuration.
 
@@ -901,7 +901,7 @@ void CertificateTest::verifyUserSignedByAuthorityOptions(
 
     ntsa::DistinguishedName authorityIdentity;
     authorityIdentity["CN"] = "TEST.AUTHORITY";
-    authorityIdentity["O"]  = "Bloomberg LP";
+    authorityIdentity["O"]  = "BNP Paribas";
 
     // Define the authority private key generation configuration.
 
@@ -917,7 +917,7 @@ void CertificateTest::verifyUserSignedByAuthorityOptions(
 
     ntsa::DistinguishedName userIdentity;
     userIdentity["CN"] = "TEST.USER";
-    userIdentity["O"]  = "Bloomberg LP";
+    userIdentity["O"]  = "BNP Paribas";
 
     // Define the user private key generation configuration.
 
@@ -1815,7 +1815,7 @@ ntsa::Error ResourceTestParametersUtil::loadResource(
 
             ntsa::DistinguishedName authoritySubject;
             authoritySubject["CN"] = authoritySubjectCommonName;
-            authoritySubject["O"]  = "Bloomberg LP";
+            authoritySubject["O"]  = "BNP Paribas";
 
             ntca::EncryptionCertificateOptions authorityCertificateOptions;
             authorityCertificateOptions.setAuthority(true);
@@ -1869,7 +1869,7 @@ ntsa::Error ResourceTestParametersUtil::loadResource(
 
     ntsa::DistinguishedName userSubject;
     userSubject["CN"] = userSubjectCommonName;
-    userSubject["O"]  = "Bloomberg LP";
+    userSubject["O"]  = "BNP Paribas";
 
     ntca::EncryptionCertificateOptions userCertificateOptions;
     userCertificateOptions.setAuthority(false);
@@ -4274,6 +4274,6 @@ NTSCFG_TEST_FUNCTION(ntctls::EncryptionTest::verifyUsage)
 }
 
 }  // close namespace ntctls
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif

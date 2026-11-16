@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntscfg_platform.h>
 #include <ntsscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration of the types of data representations.

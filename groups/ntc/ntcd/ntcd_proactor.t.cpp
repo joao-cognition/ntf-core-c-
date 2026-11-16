@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntcd_proactor_t_cpp, "$Id$ $CSID$")
 #include <ntci_log.h>
 #include <ntsf_system.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Provide tests for 'ntcd::Proactor'.
@@ -2233,4 +2233,4 @@ NTSCFG_TEST_FUNCTION(ntcd::ProactorTest::verifyCase3)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

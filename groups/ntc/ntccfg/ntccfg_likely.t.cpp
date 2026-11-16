@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntccfg_likely_t_cpp, "$Id$ $CSID$")
 
 #include <ntccfg_likely.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Likely'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::LikelyTest::verify)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

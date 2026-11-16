@@ -28,7 +28,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_platform.h>
 #include <bsls_spinlock.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 /// @internal @brief

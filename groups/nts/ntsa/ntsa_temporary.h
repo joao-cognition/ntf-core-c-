@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bdls_filesystemutil.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a temporary directory.

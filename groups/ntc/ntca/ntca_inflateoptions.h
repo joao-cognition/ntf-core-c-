@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Provide a description of the options to a inflate operation.
@@ -249,5 +249,5 @@ void hashAppend(HASH_ALGORITHM& algorithm, const InflateOptions& value)
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

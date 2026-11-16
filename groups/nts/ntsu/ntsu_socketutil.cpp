@@ -278,7 +278,7 @@ struct sockaddr_un_win32 {
 #define NTSU_SOCKETUTIL_MAX_HANDLES_PER_OUTGOING_CONTROLMSG 1
 #define NTSU_SOCKETUTIL_MAX_HANDLES_PER_INCOMING_CONTROLMSG 1
 
-BSLMF_ASSERT(sizeof(BloombergLP::ntsa::Handle) == sizeof(int));
+BSLMF_ASSERT(sizeof(BNP_Paribas::ntsa::Handle) == sizeof(int));
 
 #elif defined(BSLS_PLATFORM_OS_WINDOWS)
 
@@ -318,7 +318,7 @@ BSLMF_ASSERT(sizeof(BloombergLP::ntsa::Handle) == sizeof(int));
 // recvmsg.
 #define NTSU_SOCKETUTIL_DEBUG_RECVMSG 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// Provide a private implementation.

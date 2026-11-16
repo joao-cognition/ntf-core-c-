@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntci_listenersocket_cpp, "$Id$ $CSID$")
 
 #include <bdlf_bind.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 ListenerSocket::~ListenerSocket()

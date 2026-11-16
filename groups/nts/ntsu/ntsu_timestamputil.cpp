@@ -76,7 +76,7 @@
 
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// Provide a private implementation.

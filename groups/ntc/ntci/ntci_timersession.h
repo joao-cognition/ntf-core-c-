@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_timeinterval.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Timer;
 }
@@ -64,5 +64,5 @@ class TimerSession
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

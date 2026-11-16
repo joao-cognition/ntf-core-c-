@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntscfg_platform.h>
 #include <ntsscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration of the directions of socket shutdown.
@@ -76,5 +76,5 @@ struct ShutdownType {
 bsl::ostream& operator<<(bsl::ostream& stream, ShutdownType::Value rhs);
 
 }  // end namespace ntsa
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

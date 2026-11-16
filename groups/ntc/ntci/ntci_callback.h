@@ -36,7 +36,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_spinlock.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Declare a bindable function returning void with the specified arguments.

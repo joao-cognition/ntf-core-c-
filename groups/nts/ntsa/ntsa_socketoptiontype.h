@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsscm_version.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration of the socket option types.

@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_error.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide a factory for a mechanism to deflate and inflate a data stream.
@@ -74,5 +74,5 @@ class CompressionDriver
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bdlbb_blob.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Receiver;
 }
@@ -48,5 +48,5 @@ typedef ntci::Callback<void(const bsl::shared_ptr<ntci::Receiver>& receiver,
 typedef ReceiveCallback::FunctionType ReceiveFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

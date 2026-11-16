@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsu_adapterutil_t_cpp, "$Id$ $CSID$")
 
 #include <ntsu_adapterutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 // Provide tests for 'ntsu::AdapterUtil'.
@@ -157,4 +157,4 @@ void AdapterUtilTest::log(const bsl::vector<ntsa::Adapter>& adapterList)
 }
 
 }  // close namespace ntsu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

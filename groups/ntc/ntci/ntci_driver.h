@@ -32,7 +32,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_waiter.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to drive the I/O and events for sockets and timers.
@@ -98,5 +98,5 @@ class Driver : public ntci::Executor,
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

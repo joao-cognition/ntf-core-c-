@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bslmt_mutex.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 /// @internal @brief

@@ -35,7 +35,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_unordered_set.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -180,5 +180,5 @@ struct InteractableUtil {
 };
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

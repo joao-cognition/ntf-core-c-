@@ -27,9 +27,9 @@ BSLS_IDENT_RCSID(ntco_iocp_t_cpp, "$Id$ $CSID$")
 #include <ntco_test.h>
 #include <ntsf_system.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::Iocp'.
@@ -87,4 +87,4 @@ NTSCFG_TEST_FUNCTION(ntco::IocpTest::verifyCase3)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

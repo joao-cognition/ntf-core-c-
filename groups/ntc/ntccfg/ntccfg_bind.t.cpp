@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntccfg_bind_t_cpp, "$Id$ $CSID$")
 
 #include <ntccfg_function.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Bind'.
@@ -705,4 +705,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::BindTest::verifyWeakMemberFunctionFromSharedSelf4)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

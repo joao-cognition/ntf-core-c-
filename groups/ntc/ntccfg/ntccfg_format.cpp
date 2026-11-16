@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntccfg_format_cpp, "$Id$ $CSID$")
 
 #define NTCCFG_FORMAT_FLOATING_POINT_USING_VSPRINTF 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 const char* FORMAT_UNITS[9] = {"", "K", "M", "G", "T", "P", "E", "Z", "Y"};

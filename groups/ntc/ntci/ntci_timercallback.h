@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_timer.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Define a type alias for callback invoked on a optional
@@ -44,5 +44,5 @@ typedef ntci::Callback<void(const bsl::shared_ptr<ntci::Timer>& timer,
 typedef TimerCallback::FunctionType TimerFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

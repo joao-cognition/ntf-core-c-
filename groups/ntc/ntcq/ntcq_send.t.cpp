@@ -26,9 +26,9 @@ BSLS_IDENT_RCSID(ntcq_send_t_cpp, "$Id$ $CSID$")
 #include <ntsa_temporary.h>
 #include <ntsd_datautil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 // Provide tests for 'ntcq::SendQueue'.
@@ -644,4 +644,4 @@ NTSCFG_TEST_FUNCTION(ntcq::SendQueueTest::verifyCase6)
 }
 
 }  // close namespace ntcq
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

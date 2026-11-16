@@ -46,7 +46,7 @@ BSLS_IDENT_RCSID(ntsf_system_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_fstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsf {
 
 /// Provide a private implementation.
@@ -1490,7 +1490,7 @@ ntsa::Error System::loadTcpCongestionControlAlgorithmSupport(
     bsl::string algorithmName;
     while (ssline >> algorithmName) {
         result->push_back(
-            BloombergLP::bslmf::MovableRefUtil::move(algorithmName));
+            BNP_Paribas::bslmf::MovableRefUtil::move(algorithmName));
     }
     return ntsa::Error();
 #else

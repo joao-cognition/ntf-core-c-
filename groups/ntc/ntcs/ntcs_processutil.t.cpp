@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntcs_processutil_t_cpp, "$Id$ $CSID$")
 #include <ntci_log.h>
 #include <ntcs_processstatistics.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::ProcessUtil'.
@@ -135,4 +135,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ProcessUtilTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

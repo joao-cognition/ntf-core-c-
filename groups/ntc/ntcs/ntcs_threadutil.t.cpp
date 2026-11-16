@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntcs_threadutil_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::ThreadUtil'.
@@ -71,4 +71,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ThreadUtilTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

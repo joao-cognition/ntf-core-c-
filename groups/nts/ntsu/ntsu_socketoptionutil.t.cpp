@@ -36,9 +36,9 @@ BSLS_IDENT_RCSID(ntsu_socketoptionutil_t_cpp, "$Id$ $CSID$")
 #include <errno.h>
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 // Provide tests for 'ntsu::SocketOptionUtil'.
@@ -2326,4 +2326,4 @@ NTSCFG_TEST_FUNCTION(ntsu::SocketOptionUtilTest::verifyCase9)
 }
 
 }  // close namespace ntsu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -33,7 +33,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_iterator.h>
 #include <bsl_streambuf.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a modifiable buffer.

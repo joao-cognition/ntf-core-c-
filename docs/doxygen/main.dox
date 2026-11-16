@@ -43,13 +43,13 @@
 /// a single socket to many thousands of simultaneous sockets.
 ///
 /// For a more complete introduction to the design and features of the NTF
-/// core libraries see the <a href="https://github.com/bloomberg/ntf-core">official repository README</a>.
+/// core libraries see the <a href="https://github.com/joao-cognition/ntf-core-c-">official repository README</a>.
 ///
 /// @section section_installation Installation
 ///
 /// Build and install the libraries.
 ///
-///     git clone https://github.com/bloomberg/ntf-core <path/to/ntf-core>
+///     git clone https://github.com/joao-cognition/ntf-core-c- <path/to/ntf-core>
 ///     cd <path/to/ntf/core>
 ///     ./configure [--prefix <path/to/installation>]
 ///     make
@@ -72,34 +72,34 @@
 /// Start exploring the API and features of NTS through the following steps.
 ///
 /// -# <i>Create a listener socket</i>
-///     - @link BloombergLP::ntsf::System::createListenerSocket Create@endlink a @link BloombergLP::ntsi::ListenerSocket blocking/non-blocking listener socket@endlink from the @link BloombergLP::ntsf::System operating system@endlink and @link BloombergLP::ntsi::ListenerSocket::open open@endlink it to use a particular
-/// @link BloombergLP::ntsa::Transport transport@endlink (in this example, we'll use @link BloombergLP::ntsa::Transport::e_TCP_IPV4_STREAM TCP/IPv4@endlink)
-///     - @link BloombergLP::ntsi::ListenerSocket::bind Bind@endlink the listener socket to a @link BloombergLP::ntsa::Endpoint endpoint@endlink, which for the transport used by this example will be a @link BloombergLP::ntsa::IpEndpoint IP endpoint@endlink set to an @link BloombergLP::ntsa::Ipv4Address IPv4 address@endlink a port number. 
-///     - Start @link BloombergLP::ntsi::ListenerSocket::listen listening@endlink for incoming connections.
+///     - @link BNP_Paribas::ntsf::System::createListenerSocket Create@endlink a @link BNP_Paribas::ntsi::ListenerSocket blocking/non-blocking listener socket@endlink from the @link BNP_Paribas::ntsf::System operating system@endlink and @link BNP_Paribas::ntsi::ListenerSocket::open open@endlink it to use a particular
+/// @link BNP_Paribas::ntsa::Transport transport@endlink (in this example, we'll use @link BNP_Paribas::ntsa::Transport::e_TCP_IPV4_STREAM TCP/IPv4@endlink)
+///     - @link BNP_Paribas::ntsi::ListenerSocket::bind Bind@endlink the listener socket to a @link BNP_Paribas::ntsa::Endpoint endpoint@endlink, which for the transport used by this example will be a @link BNP_Paribas::ntsa::IpEndpoint IP endpoint@endlink set to an @link BNP_Paribas::ntsa::Ipv4Address IPv4 address@endlink a port number. 
+///     - Start @link BNP_Paribas::ntsi::ListenerSocket::listen listening@endlink for incoming connections.
 /// -# <i>Create a stream socket and connect it to the listener socket</i>
-///     - @link BloombergLP::ntsf::System::createStreamSocket Create@endlink a @link BloombergLP::ntsi::StreamSocket blocking/non-blocking stream socket@endlink from the @link BloombergLP::ntsf::System operating system@endlink to act as a client and @link BloombergLP::ntsi::StreamSocket::open open@endlink it to use the same @link BloombergLP::ntsa::Transport transport@endlink as the listener socket.
-///     - @link BloombergLP::ntsi::StreamSocket::connect Connect@endlink the stream socket to the listener socket's @link BloombergLP::ntsi::ListenerSocket::sourceEndpoint source endpoint@endlink. 
-///     - Notice the client socket's @link BloombergLP::ntsi::StreamSocket::remoteEndpoint remote endpoint@endlink matches the listener socket's @link BloombergLP::ntsi::ListenerSocket::sourceEndpoint source endpoint@endlink.
+///     - @link BNP_Paribas::ntsf::System::createStreamSocket Create@endlink a @link BNP_Paribas::ntsi::StreamSocket blocking/non-blocking stream socket@endlink from the @link BNP_Paribas::ntsf::System operating system@endlink to act as a client and @link BNP_Paribas::ntsi::StreamSocket::open open@endlink it to use the same @link BNP_Paribas::ntsa::Transport transport@endlink as the listener socket.
+///     - @link BNP_Paribas::ntsi::StreamSocket::connect Connect@endlink the stream socket to the listener socket's @link BNP_Paribas::ntsi::ListenerSocket::sourceEndpoint source endpoint@endlink. 
+///     - Notice the client socket's @link BNP_Paribas::ntsi::StreamSocket::remoteEndpoint remote endpoint@endlink matches the listener socket's @link BNP_Paribas::ntsi::ListenerSocket::sourceEndpoint source endpoint@endlink.
 /// -# <i>Accept a stream socket from the listener socket's backlog</i>
-///     - @link BloombergLP::ntsi::ListenerSocket::accept Accept@endlink a @link BloombergLP::ntsi::StreamSocket blocking/non-blocking stream socket@endlink from the listener socket's backlog to act as a server
-///     - Notice the accepted socket's @link BloombergLP::ntsi::StreamSocket::remoteEndpoint remote endpoint@endlink matches the client socket's @link BloombergLP::ntsi::StreamSocket::sourceEndpoint source endpoint@endlink.
+///     - @link BNP_Paribas::ntsi::ListenerSocket::accept Accept@endlink a @link BNP_Paribas::ntsi::StreamSocket blocking/non-blocking stream socket@endlink from the listener socket's backlog to act as a server
+///     - Notice the accepted socket's @link BNP_Paribas::ntsi::StreamSocket::remoteEndpoint remote endpoint@endlink matches the client socket's @link BNP_Paribas::ntsi::StreamSocket::sourceEndpoint source endpoint@endlink.
 /// -# <i>Send data from the client socket to the server socket</i>
-///     - Iteratively @link BloombergLP::ntsi::StreamSocket::send send@endlink some @link BloombergLP::ntsa::Data data@endlink through the client socket to the server socket until all the desired data is sent. Examine the resulting @link BloombergLP::ntsa::SendContext send context@endlink to detect how many bytes were actually sent, and adjust the target of the data to send accordingly.
-///     - Iteratively @link BloombergLP::ntsi::StreamSocket::receive receive@endlink some @link BloombergLP::ntsa::Data data@endlink from the server socket until all the expected data sent by the client socket has been received. Examine the resulting @link BloombergLP::ntsa::ReceiveContext receive context@endlink to detect how many bytes were actually received, and adjust the target of the data to receive accordingly.
+///     - Iteratively @link BNP_Paribas::ntsi::StreamSocket::send send@endlink some @link BNP_Paribas::ntsa::Data data@endlink through the client socket to the server socket until all the desired data is sent. Examine the resulting @link BNP_Paribas::ntsa::SendContext send context@endlink to detect how many bytes were actually sent, and adjust the target of the data to send accordingly.
+///     - Iteratively @link BNP_Paribas::ntsi::StreamSocket::receive receive@endlink some @link BNP_Paribas::ntsa::Data data@endlink from the server socket until all the expected data sent by the client socket has been received. Examine the resulting @link BNP_Paribas::ntsa::ReceiveContext receive context@endlink to detect how many bytes were actually received, and adjust the target of the data to receive accordingly.
 /// -# <i>Send data from the server socket to the client socket</i>
-///     - Iteratively @link BloombergLP::ntsi::StreamSocket::send send@endlink some @link BloombergLP::ntsa::Data data@endlink through the server socket to the client socket until all the desired data is sent. Examine the resulting @link BloombergLP::ntsa::SendContext send context@endlink to detect how many bytes were actually sent, and adjust the target of the data to send accordingly.
-///     - Iteratively @link BloombergLP::ntsi::StreamSocket::receive receive@endlink some @link BloombergLP::ntsa::Data data@endlink from the client socket until all the expected data sent by the server socket has been received. Examine the resulting @link BloombergLP::ntsa::ReceiveContext receive context@endlink to detect how many bytes were actually received, and adjust the target of the data to receive accordingly.
+///     - Iteratively @link BNP_Paribas::ntsi::StreamSocket::send send@endlink some @link BNP_Paribas::ntsa::Data data@endlink through the server socket to the client socket until all the desired data is sent. Examine the resulting @link BNP_Paribas::ntsa::SendContext send context@endlink to detect how many bytes were actually sent, and adjust the target of the data to send accordingly.
+///     - Iteratively @link BNP_Paribas::ntsi::StreamSocket::receive receive@endlink some @link BNP_Paribas::ntsa::Data data@endlink from the client socket until all the expected data sent by the server socket has been received. Examine the resulting @link BNP_Paribas::ntsa::ReceiveContext receive context@endlink to detect how many bytes were actually received, and adjust the target of the data to receive accordingly.
 /// -# <i>Initiate the connection shutdown sequence by shutting down transmission from the client side</i>
-///     - @link BloombergLP::ntsi::StreamSocket::shutdown Shutdown@endlink the client socket.
-///     - @link BloombergLP::ntsi::StreamSocket::receive Receive@endlink some @link BloombergLP::ntsa::Data data@endlink from the server socket.
-///     - Notice the receive operation fails with @link BloombergLP::ntsa::Error::e_EOF "end-of-file"@endlink or the resulting @link BloombergLP::ntsa::ReceiveContext receive context@endlink indicates that zero bytes were successfully read. This indicates the peer of the server socket (i.e., the client socket) has shut down transmission from its side of the connection and no more data will be received by the server socket. 
+///     - @link BNP_Paribas::ntsi::StreamSocket::shutdown Shutdown@endlink the client socket.
+///     - @link BNP_Paribas::ntsi::StreamSocket::receive Receive@endlink some @link BNP_Paribas::ntsa::Data data@endlink from the server socket.
+///     - Notice the receive operation fails with @link BNP_Paribas::ntsa::Error::e_EOF "end-of-file"@endlink or the resulting @link BNP_Paribas::ntsa::ReceiveContext receive context@endlink indicates that zero bytes were successfully read. This indicates the peer of the server socket (i.e., the client socket) has shut down transmission from its side of the connection and no more data will be received by the server socket. 
 /// -# <i>Complete the connection shutdown sequence by shutting down transmission by the server side</i>
-///     - @link BloombergLP::ntsi::StreamSocket::shutdown Shutdown@endlink the server socket.
-///     - @link BloombergLP::ntsi::StreamSocket::receive Receive@endlink some @link BloombergLP::ntsa::Data data@endlink from the client socket.
-///     - Notice the receive operation fails with @link BloombergLP::ntsa::Error::e_EOF "end-of-file"@endlink or the resulting @link BloombergLP::ntsa::ReceiveContext receive context@endlink indicates that zero bytes were successfully read. This indicates the peer of the client socket (i.e., the server socket) has shut down transmission from its side of the connection and no more data will be received by the client socket.
+///     - @link BNP_Paribas::ntsi::StreamSocket::shutdown Shutdown@endlink the server socket.
+///     - @link BNP_Paribas::ntsi::StreamSocket::receive Receive@endlink some @link BNP_Paribas::ntsa::Data data@endlink from the client socket.
+///     - Notice the receive operation fails with @link BNP_Paribas::ntsa::Error::e_EOF "end-of-file"@endlink or the resulting @link BNP_Paribas::ntsa::ReceiveContext receive context@endlink indicates that zero bytes were successfully read. This indicates the peer of the client socket (i.e., the server socket) has shut down transmission from its side of the connection and no more data will be received by the client socket.
 /// -# <i>Release all resources</i>
-///     - @link BloombergLP::ntsi::StreamSocket::close Close@endlink the client and server sockets.
-///     - @link BloombergLP::ntsi::ListenerSocket::close Close@endlink the listener socket.
+///     - @link BNP_Paribas::ntsi::StreamSocket::close Close@endlink the client and server sockets.
+///     - @link BNP_Paribas::ntsi::ListenerSocket::close Close@endlink the listener socket.
 ///
 /// For example:
 ///
@@ -272,46 +272,46 @@
 /// Start exploring the API and features of NTC through the following steps.
 ///
 /// -# <i>Run a scheduler of asynchronous operation</i>
-///     - @link ntcf::System::createInterface Create@endlink a @link BloombergLP::ntci::Interface scheduler@endlink with a @link BloombergLP::ntca::InterfaceConfig configuration@endlink specifying the minimum and maximum number of desired background threads of execution.
+///     - @link ntcf::System::createInterface Create@endlink a @link BNP_Paribas::ntci::Interface scheduler@endlink with a @link BNP_Paribas::ntca::InterfaceConfig configuration@endlink specifying the minimum and maximum number of desired background threads of execution.
 /// -# <i>Create a listener socket</i>
-///     - @link BloombergLP::ntci::Interface::createListenerSocket Create@endlink an @link BloombergLP::ntci::ListenerSocket asynchronous listener socket@endlink from the @link BloombergLP::ntci::Interface scheduler@endlink and @link BloombergLP::ntci::ListenerSocket::open open@endlink it to use a particular
-/// @link BloombergLP::ntsa::Transport transport@endlink (in this example, we'll use @link BloombergLP::ntsa::Transport::e_TCP_IPV4_STREAM TCP/IPv4@endlink)
-///     - Asynchronously @link BloombergLP::ntci::ListenerSocket::bind bind@endlink the listener socket to a @link BloombergLP::ntsa::Endpoint endpoint@endlink, which for the transport used by this example will be a @link BloombergLP::ntsa::IpEndpoint IP endpoint@endlink set to an @link BloombergLP::ntsa::Ipv4Address IPv4 address@endlink a port number.  Note that the listener socket may alternatively be bound to a name, which will be automatically resolved during the asynchronous bind operation.
-///     - @link BloombergLP::ntci::BindCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::BindEvent bind event@endlink and its @link BloombergLP::ntca::BindContext context@endlink to determine the success or failure of the asynchronous operation.
-///     - Start @link BloombergLP::ntsi::ListenerSocket::listen listening@endlink for incoming connections.
+///     - @link BNP_Paribas::ntci::Interface::createListenerSocket Create@endlink an @link BNP_Paribas::ntci::ListenerSocket asynchronous listener socket@endlink from the @link BNP_Paribas::ntci::Interface scheduler@endlink and @link BNP_Paribas::ntci::ListenerSocket::open open@endlink it to use a particular
+/// @link BNP_Paribas::ntsa::Transport transport@endlink (in this example, we'll use @link BNP_Paribas::ntsa::Transport::e_TCP_IPV4_STREAM TCP/IPv4@endlink)
+///     - Asynchronously @link BNP_Paribas::ntci::ListenerSocket::bind bind@endlink the listener socket to a @link BNP_Paribas::ntsa::Endpoint endpoint@endlink, which for the transport used by this example will be a @link BNP_Paribas::ntsa::IpEndpoint IP endpoint@endlink set to an @link BNP_Paribas::ntsa::Ipv4Address IPv4 address@endlink a port number.  Note that the listener socket may alternatively be bound to a name, which will be automatically resolved during the asynchronous bind operation.
+///     - @link BNP_Paribas::ntci::BindCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::BindEvent bind event@endlink and its @link BNP_Paribas::ntca::BindContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Start @link BNP_Paribas::ntsi::ListenerSocket::listen listening@endlink for incoming connections.
 /// -# <i>Create a stream socket and connect it to the listener socket</i>
-///     - @link BloombergLP::ntci::Interface::createStreamSocket Create@endlink an @link BloombergLP::ntci::StreamSocket asynchronous stream socket@endlink from the @link BloombergLP::ntci::Interface scheduler@endlink to act as a client and @link BloombergLP::ntci::StreamSocket::open open@endlink it to use the same @link BloombergLP::ntsa::Transport transport@endlink as the listener socket.
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::connect connect@endlink the stream socket to the listener socket's @link BloombergLP::ntci::ListenerSocket::sourceEndpoint source endpoint@endlink. Note that the stream socket may alternatively connect to a name, which will be automatically resolved during the asynchronous connect operation. 
-///     - @link BloombergLP::ntci::ConnectCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::ConnectEvent connect event@endlink and its @link BloombergLP::ntca::ConnectContext context@endlink to determine the success or failure of the asynchronous operation.
-///     - Notice the client socket's @link BloombergLP::ntci::StreamSocket::remoteEndpoint remote endpoint@endlink matches the listener socket's @link BloombergLP::ntci::ListenerSocket::sourceEndpoint source endpoint@endlink.
+///     - @link BNP_Paribas::ntci::Interface::createStreamSocket Create@endlink an @link BNP_Paribas::ntci::StreamSocket asynchronous stream socket@endlink from the @link BNP_Paribas::ntci::Interface scheduler@endlink to act as a client and @link BNP_Paribas::ntci::StreamSocket::open open@endlink it to use the same @link BNP_Paribas::ntsa::Transport transport@endlink as the listener socket.
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::connect connect@endlink the stream socket to the listener socket's @link BNP_Paribas::ntci::ListenerSocket::sourceEndpoint source endpoint@endlink. Note that the stream socket may alternatively connect to a name, which will be automatically resolved during the asynchronous connect operation. 
+///     - @link BNP_Paribas::ntci::ConnectCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::ConnectEvent connect event@endlink and its @link BNP_Paribas::ntca::ConnectContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Notice the client socket's @link BNP_Paribas::ntci::StreamSocket::remoteEndpoint remote endpoint@endlink matches the listener socket's @link BNP_Paribas::ntci::ListenerSocket::sourceEndpoint source endpoint@endlink.
 /// -# <i>Accept a stream socket from the listener socket's backlog</i>
-///     - Asynchronously @link BloombergLP::ntci::ListenerSocket::accept Accept@endlink an @link BloombergLP::ntci::StreamSocket asynchronous stream socket@endlink from the listener socket's backlog to act as a server.
-///     - @link BloombergLP::ntci::AcceptCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::AcceptEvent accept event@endlink and its @link BloombergLP::ntca::AcceptContext context@endlink to determine the success or failure of the asynchronous operation.
-///     - Notice the accepted socket's @link BloombergLP::ntci::StreamSocket::remoteEndpoint remote endpoint@endlink matches the client socket's @link BloombergLP::ntci::StreamSocket::sourceEndpoint source endpoint@endlink.
+///     - Asynchronously @link BNP_Paribas::ntci::ListenerSocket::accept Accept@endlink an @link BNP_Paribas::ntci::StreamSocket asynchronous stream socket@endlink from the listener socket's backlog to act as a server.
+///     - @link BNP_Paribas::ntci::AcceptCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::AcceptEvent accept event@endlink and its @link BNP_Paribas::ntca::AcceptContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Notice the accepted socket's @link BNP_Paribas::ntci::StreamSocket::remoteEndpoint remote endpoint@endlink matches the client socket's @link BNP_Paribas::ntci::StreamSocket::sourceEndpoint source endpoint@endlink.
 /// -# <i>Send data from the client socket to the server socket</i>
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::send send@endlink some @link BloombergLP::ntsa::Data data@endlink through the client socket to the server socket. 
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::receive receive@endlink some data from the server socket until all the expected data sent by the client socket has been received. The amount of data desired to be received is specified in the @link BloombergLP::ntca::ReceiveOptions receive options@endlink.
-///     - @link BloombergLP::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::ReceiveEvent receive event@endlink and its @link BloombergLP::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::send send@endlink some @link BNP_Paribas::ntsa::Data data@endlink through the client socket to the server socket. 
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::receive receive@endlink some data from the server socket until all the expected data sent by the client socket has been received. The amount of data desired to be received is specified in the @link BNP_Paribas::ntca::ReceiveOptions receive options@endlink.
+///     - @link BNP_Paribas::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::ReceiveEvent receive event@endlink and its @link BNP_Paribas::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
 /// -# <i>Send data from the server socket to the client socket</i>
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::send send@endlink some @link BloombergLP::ntsa::Data data@endlink through the server socket to the client socket. 
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::receive receive@endlink some data from the client socket until all the expected data sent by the server socket has been received. The amount of data desired to be received is specified in the @link BloombergLP::ntca::ReceiveOptions receive options@endlink.
-///     - @link BloombergLP::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::ReceiveEvent receive event@endlink and its @link BloombergLP::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::send send@endlink some @link BNP_Paribas::ntsa::Data data@endlink through the server socket to the client socket. 
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::receive receive@endlink some data from the client socket until all the expected data sent by the server socket has been received. The amount of data desired to be received is specified in the @link BNP_Paribas::ntca::ReceiveOptions receive options@endlink.
+///     - @link BNP_Paribas::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::ReceiveEvent receive event@endlink and its @link BNP_Paribas::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
 /// -# <i>Initiate the connection shutdown sequence by shutting down transmission from the client side</i>
-///     - @link BloombergLP::ntci::StreamSocket::shutdown Shutdown@endlink the client socket.
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::receive receive@endlink some data from the server socket.
-///     - @link BloombergLP::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::ReceiveEvent receive event@endlink and its @link BloombergLP::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
-///     - Notice the resulting @link BloombergLP::ntca::ReceiveContext receive context@endlink indicates the fails with @link BloombergLP::ntsa::Error::e_EOF "end-of-file"@endlink. This indicates the peer of the server socket (i.e., the client socket) has shut down transmission from its side of the connection and no more data will be received by the server socket. 
+///     - @link BNP_Paribas::ntci::StreamSocket::shutdown Shutdown@endlink the client socket.
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::receive receive@endlink some data from the server socket.
+///     - @link BNP_Paribas::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::ReceiveEvent receive event@endlink and its @link BNP_Paribas::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Notice the resulting @link BNP_Paribas::ntca::ReceiveContext receive context@endlink indicates the fails with @link BNP_Paribas::ntsa::Error::e_EOF "end-of-file"@endlink. This indicates the peer of the server socket (i.e., the client socket) has shut down transmission from its side of the connection and no more data will be received by the server socket. 
 /// -# <i>Complete the connection shutdown sequence by shutting down transmission by the server side</i>
-///     - @link BloombergLP::ntci::StreamSocket::shutdown Shutdown@endlink the server socket.
-///     - Asynchronously @link BloombergLP::ntci::StreamSocket::receive receive@endlink some data from the client socket.
-///     - @link BloombergLP::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BloombergLP::ntca::ReceiveEvent receive event@endlink and its @link BloombergLP::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
-///     - Notice the resulting @link BloombergLP::ntca::ReceiveContext receive context@endlink indicates the fails with @link BloombergLP::ntsa::Error::e_EOF "end-of-file"@endlink. This indicates the peer of the server socket (i.e., the server socket) has shut down transmission from its side of the connection and no more data will be received by the client socket. 
+///     - @link BNP_Paribas::ntci::StreamSocket::shutdown Shutdown@endlink the server socket.
+///     - Asynchronously @link BNP_Paribas::ntci::StreamSocket::receive receive@endlink some data from the client socket.
+///     - @link BNP_Paribas::ntci::ReceiveCallback Wait@endlink for the operation to complete. Examine the resulting asynchronous @link BNP_Paribas::ntca::ReceiveEvent receive event@endlink and its @link BNP_Paribas::ntca::ReceiveContext context@endlink to determine the success or failure of the asynchronous operation.
+///     - Notice the resulting @link BNP_Paribas::ntca::ReceiveContext receive context@endlink indicates the fails with @link BNP_Paribas::ntsa::Error::e_EOF "end-of-file"@endlink. This indicates the peer of the server socket (i.e., the server socket) has shut down transmission from its side of the connection and no more data will be received by the client socket. 
 /// -# <i>Release all resources</i>
-///     - Asynchronously @link BloombergLP::ntsi::StreamSocket::close close@endlink the client and server sockets and wait until those operations complete.
-///     - Asynchronously @link BloombergLP::ntsi::ListenerSocket::close close@endlink the listener socket and wait for the operation to complete.
+///     - Asynchronously @link BNP_Paribas::ntsi::StreamSocket::close close@endlink the client and server sockets and wait until those operations complete.
+///     - Asynchronously @link BNP_Paribas::ntsi::ListenerSocket::close close@endlink the listener socket and wait for the operation to complete.
 ///     - Note that all sockets must be explicitly closed, and that the close operation is also asynchronous.
 /// -# <i>Stop the scheduler of asynchronous operation</i>
-///     - @link BloombergLP::ntci::Interface::shutdown Shutdown@endlink the @link BloombergLP::ntci::Interface scheduler@endlink and @link ntci::Interface::linger block@endlink until all threads have been joined.
+///     - @link BNP_Paribas::ntci::Interface::shutdown Shutdown@endlink the @link BNP_Paribas::ntci::Interface scheduler@endlink and @link ntci::Interface::linger block@endlink until all threads have been joined.
 ///
 /// For example:
 ///

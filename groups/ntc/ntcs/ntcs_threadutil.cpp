@@ -27,7 +27,7 @@ BSLS_IDENT_RCSID(ntcs_threadutil_cpp, "$Id$ $CSID$")
 #include <signal.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 ntsa::Error ThreadUtil::create(bslmt::ThreadUtil::Handle*     handle,

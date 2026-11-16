@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe the configuration of a scheduler of asynchronous operation.
@@ -32,5 +32,5 @@ namespace ntca {
 typedef InterfaceConfig SchedulerConfig;
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntscfg_config.h>
 #include <ntscfg_platform.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Defines a type alias for the standard allocator type.
@@ -43,6 +43,6 @@ typedef bsl::allocator<> Allocator;
 typedef bsl::allocator_arg_t AllocatorArg;
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif

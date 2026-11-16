@@ -48,7 +48,7 @@ BSLS_IDENT_RCSID(ntsa_temporary_cpp, "$Id$ $CSID$")
 // clang-format on
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide utilities for implementing temporary directory and file guards.

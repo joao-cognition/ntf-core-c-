@@ -34,7 +34,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe the configurable parameters and behavior of certificate
@@ -337,5 +337,5 @@ bsl::ostream& operator<<(bsl::ostream&               stream,
                          const EncryptionValidation& object);
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

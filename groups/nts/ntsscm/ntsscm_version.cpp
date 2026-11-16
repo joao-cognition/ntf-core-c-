@@ -56,7 +56,7 @@ BSLS_IDENT_RCSID(ntsscm_version_cpp, "$Id$ $CSID$")
 #pragma warning(disable : 4996)
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsscm {
 
 /// @internal @brief
@@ -328,4 +328,4 @@ int Version::systemVersion(int* major, int* minor, int* patch, int* build)
 }
 
 }  // close namespace ntsscm
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

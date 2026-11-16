@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntca_encryptionkey_t_cpp, "$Id$ $CSID$")
 
 #include <ntca_encryptionkey.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 // Provide tests for 'ntca::EncryptionKey'.
@@ -681,4 +681,4 @@ const bsl::uint8_t EncryptionKeyTest::k_ED448[73] = {
 // clang-format one
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

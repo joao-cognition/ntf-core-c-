@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_ipaddressoptions_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bool IpAddressOptions::equals(const IpAddressOptions& other) const

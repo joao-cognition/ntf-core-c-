@@ -183,7 +183,7 @@
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 const bsl::size_t ClientOperation::k_DNS_MAX_PAYLOAD_SIZE = 512;

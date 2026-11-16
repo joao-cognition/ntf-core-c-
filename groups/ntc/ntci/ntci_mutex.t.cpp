@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntci_mutex_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_mutex.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // Provide tests for 'ntci::Mutex'.
@@ -45,4 +45,4 @@ NTSCFG_TEST_FUNCTION(ntci::MutexTest::verify)
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

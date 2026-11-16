@@ -33,13 +33,13 @@ BSLS_IDENT_RCSID(ntcp_listenersocket_t_cpp, "$Id$ $CSID$")
 #include <ntsa_transport.h>
 #include <ntsi_streamsocket.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 // Uncomment to test a particular style of socket-to-thread load balancing,
 // instead of both static and dynamic load balancing.
 // #define NTCP_LISTENER_SOCKET_TEST_DYNAMIC_LOAD_BALANCING false
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcp {
 
 // Provide tests for 'ntcp::ListenerSocket'.
@@ -2074,4 +2074,4 @@ NTSCFG_TEST_FUNCTION(ntcp::ListenerSocketTest::verifyAcceptCancellation)
 }
 
 }  // close namespace ntcp
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

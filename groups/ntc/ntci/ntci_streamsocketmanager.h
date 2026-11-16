@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsi_descriptor.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class StreamSocket;
 }

@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_async_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_globalallocator.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::GlobalAllocator'.
@@ -178,4 +178,4 @@ NTSCFG_TEST_FUNCTION(ntcs::GlobalAllocatorTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

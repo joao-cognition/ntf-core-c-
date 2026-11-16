@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntcf_testfixture_t_cpp, "$Id$ $CSID$")
 
 #include <ntcf_testfixture.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 // Provide tests for 'ntcf::TestFixture'.
@@ -275,5 +275,5 @@ NTSCFG_TEST_FUNCTION(ntcf::TestFixtureTest::verifyBacklog)
 }
 
 }  // close namespace ntcf
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

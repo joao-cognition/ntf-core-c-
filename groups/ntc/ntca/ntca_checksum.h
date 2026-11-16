@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_objectbuffer.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Provide a checksum calculated according to the Adler-32 algorithm.
@@ -868,5 +868,5 @@ NTSCFG_INLINE void hashAppend(HASH_ALGORITHM& algorithm, const Checksum& value)
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

@@ -92,7 +92,7 @@ BSLS_IDENT_RCSID(ntsu_adapterutil_cpp, "$Id$ $CSID$")
 // Uncomment to skip the inclusion of VMware adapters
 // #define NTSU_ADAPTERUTIL_SKIP_VMWARE 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// Provide a private implementation.

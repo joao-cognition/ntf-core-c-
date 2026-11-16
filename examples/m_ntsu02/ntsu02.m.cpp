@@ -18,7 +18,7 @@
 #include <ntsi_streamsocket.h>
 #include <bsls_assert.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 int main()
 {

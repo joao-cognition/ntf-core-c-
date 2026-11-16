@@ -49,8 +49,8 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT()                                                    \
-    BloombergLP::ntci::LogContext* __LOG_CONTEXT__ =                          \
-        BloombergLP::ntci::LogContext::getThreadLocal()
+    BNP_Paribas::ntci::LogContext* __LOG_CONTEXT__ =                          \
+        BNP_Paribas::ntci::LogContext::getThreadLocal()
 
 /// Log a formatted message at the specified 'severity'.
 ///
@@ -59,9 +59,9 @@ BSLS_IDENT("$Id: $")
     do {                                                                      \
         if (__LOG_CONTEXT__) {                                                \
             if (NTCCFG_UNLIKELY((severity) <=                                 \
-                                BloombergLP::bsls::Log::severityThreshold())) \
+                                BNP_Paribas::bsls::Log::severityThreshold())) \
             {                                                                 \
-                BloombergLP::ntci::Log::write(__LOG_CONTEXT__,                \
+                BNP_Paribas::ntci::Log::write(__LOG_CONTEXT__,                \
                                               (severity),                     \
                                               __FILE__,                       \
                                               __LINE__,                       \
@@ -78,9 +78,9 @@ BSLS_IDENT("$Id: $")
     do {                                                                      \
         if (__LOG_CONTEXT__) {                                                \
             if (NTCCFG_UNLIKELY((severity) <=                                 \
-                                BloombergLP::bsls::Log::severityThreshold())) \
+                                BNP_Paribas::bsls::Log::severityThreshold())) \
             {                                                                 \
-                BloombergLP::ntci::Log::writeRaw(__LOG_CONTEXT__,             \
+                BNP_Paribas::ntci::Log::writeRaw(__LOG_CONTEXT__,             \
                                                  (severity),                  \
                                                  __FILE__,                    \
                                                  __LINE__,                    \
@@ -94,43 +94,43 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_FATAL(...)                                                   \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_FATAL, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_FATAL, __VA_ARGS__)
 
 /// Log a formatted message at the error severity level.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_ERROR(...)                                                   \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_ERROR, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_ERROR, __VA_ARGS__)
 
 /// Log a formatted message at the warning severity level.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_WARN(...)                                                    \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_WARN, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_WARN, __VA_ARGS__)
 
 /// Log a formatted message at the informational severity level.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_INFO(...)                                                    \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_INFO, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_INFO, __VA_ARGS__)
 
 /// Log a formatted message at the debug severity level.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_DEBUG(...)                                                   \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_DEBUG, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_DEBUG, __VA_ARGS__)
 
 /// Log a formatted message at the trace severity level.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_TRACE(...)                                                   \
-    NTCI_LOG(BloombergLP::bsls::LogSeverity::e_TRACE, __VA_ARGS__)
+    NTCI_LOG(BNP_Paribas::bsls::LogSeverity::e_TRACE, __VA_ARGS__)
 
 /// Attribute subsequent logging by this thread to the specified 'owner'.
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_OWNER(owner)                                   \
-    BloombergLP::ntci::LogOwnerGuard __LOG_CONTEXT_GUARD_OWNER__(             \
+    BNP_Paribas::ntci::LogOwnerGuard __LOG_CONTEXT_GUARD_OWNER__(             \
         __LOG_CONTEXT__,                                                      \
         (owner))
 
@@ -139,7 +139,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_MONITOR(monitorIndex)                          \
-    BloombergLP::ntci::LogMonitorGuard __LOG_CONTEXT_GUARD_MONITOR__(         \
+    BNP_Paribas::ntci::LogMonitorGuard __LOG_CONTEXT_GUARD_MONITOR__(         \
         __LOG_CONTEXT__,                                                      \
         (monitorIndex))
 
@@ -147,7 +147,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_THREAD(threadIndex)                            \
-    BloombergLP::ntci::LogThreadGuard __LOG_CONTEXT_GUARD_THREAD__(           \
+    BNP_Paribas::ntci::LogThreadGuard __LOG_CONTEXT_GUARD_THREAD__(           \
         __LOG_CONTEXT__,                                                      \
         (threadIndex))
 
@@ -155,7 +155,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_SOURCE(sourceId)                               \
-    BloombergLP::ntci::LogSourceGuard __LOG_CONTEXT_GUARD_SOURCE__(           \
+    BNP_Paribas::ntci::LogSourceGuard __LOG_CONTEXT_GUARD_SOURCE__(           \
         __LOG_CONTEXT__,                                                      \
         (sourceId))
 
@@ -163,7 +163,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_CHANNEL(channelId)                             \
-    BloombergLP::ntci::LogChannelGuard __LOG_CONTEXT_GUARD_CHANNEL__(         \
+    BNP_Paribas::ntci::LogChannelGuard __LOG_CONTEXT_GUARD_CHANNEL__(         \
         __LOG_CONTEXT__,                                                      \
         (channelId))
 
@@ -172,7 +172,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_SESSION(sessionHandle)                         \
-    BloombergLP::ntci::LogSessionGuard __LOG_CONTEXT_GUARD_SESSION__(         \
+    BNP_Paribas::ntci::LogSessionGuard __LOG_CONTEXT_GUARD_SESSION__(         \
         __LOG_CONTEXT__,                                                      \
         (sessionHandle))
 
@@ -181,7 +181,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_DESCRIPTOR(descriptorHandle)                   \
-    BloombergLP::ntci::LogDescriptorGuard __LOG_CONTEXT_GUARD_DESCRIPTOR__(   \
+    BNP_Paribas::ntci::LogDescriptorGuard __LOG_CONTEXT_GUARD_DESCRIPTOR__(   \
         __LOG_CONTEXT__,                                                      \
         (descriptorHandle))
 
@@ -190,7 +190,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_SOURCE_ENDPOINT(sourceEndpoint)                \
-    BloombergLP::ntci::LogSourceEndpointGuard                                 \
+    BNP_Paribas::ntci::LogSourceEndpointGuard                                 \
     __LOG_CONTEXT_GUARD_SOURCE_ENDPOINT__(__LOG_CONTEXT__, (sourceEndpoint))
 
 /// Attribute subsequent logging by this thread to the specified
@@ -198,7 +198,7 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_CONTEXT_GUARD_REMOTE_ENDPOINT(remoteEndpoint)                \
-    BloombergLP::ntci::LogRemoteEndpointGuard                                 \
+    BNP_Paribas::ntci::LogRemoteEndpointGuard                                 \
     __LOG_CONTEXT_GUARD_REMOTE_ENDPOINT__(__LOG_CONTEXT__, (remoteEndpoint))
 
 #else
@@ -305,11 +305,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_FATAL                                                 \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_FATAL <=            \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_FATAL <=            \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_FATAL;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_FATAL;                          \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -320,11 +320,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_ERROR                                                 \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_ERROR <=            \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_ERROR <=            \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_ERROR;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_ERROR;                          \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -335,11 +335,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_WARN                                                  \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_WARN <=             \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_WARN <=             \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_WARN;                           \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_WARN;                           \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -350,11 +350,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_INFO                                                  \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_INFO <=             \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_INFO <=             \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_INFO;                           \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_INFO;                           \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -365,11 +365,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_DEBUG                                                 \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_DEBUG <=            \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_DEBUG <=            \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_DEBUG;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_DEBUG;                          \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -380,11 +380,11 @@ BSLS_IDENT("$Id: $")
 ///
 /// @ingroup module_ntci_log
 #define NTCI_LOG_STREAM_TRACE                                                 \
-    if (NTCCFG_UNLIKELY(BloombergLP::bsls::LogSeverity::e_TRACE <=            \
-                        BloombergLP::bsls::Log::severityThreshold()))         \
+    if (NTCCFG_UNLIKELY(BNP_Paribas::bsls::LogSeverity::e_TRACE <=            \
+                        BNP_Paribas::bsls::Log::severityThreshold()))         \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntclSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_TRACE;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntclSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_TRACE;                          \
         NTCCFG_WARNING_UNUSED(ntclSeverity);                                  \
         bdlsb::MemOutStreamBuf ntclSb(bslma::Default::globalAllocator());     \
         {                                                                     \
@@ -401,7 +401,7 @@ BSLS_IDENT("$Id: $")
     NTCI_LOG_RAW(ntclSeverity, ntclSb.data(), ntclSb.length());               \
     }
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// @internal @brief
@@ -1310,5 +1310,5 @@ LogRemoteEndpointGuard::~LogRemoteEndpointGuard()
 }
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntcf_testfixture_cpp, "$Id$ $CSID$")
 
 #include <bslmt_threadutil.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 bsl::shared_ptr<ntcf::TestClient> TestFixture::createClient()
@@ -647,5 +647,5 @@ void TestFixtureUtil::disableSourceEncryption(
 }
 
 }  // close namespace ntcf
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

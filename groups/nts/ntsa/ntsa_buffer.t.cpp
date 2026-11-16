@@ -30,9 +30,9 @@ BSLS_IDENT_RCSID(ntscfg_buffer_t_cpp, "$Id$ $CSID$")
 #include <winsock2.h>
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntscfg::BufferTest'.
@@ -1166,4 +1166,4 @@ NTSCFG_TEST_FUNCTION(ntsa::BufferTest::verifyCase21)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

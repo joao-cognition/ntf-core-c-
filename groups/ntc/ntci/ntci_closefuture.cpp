@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntci_closefuture_cpp, "$Id$ $CSID$")
 #define NTCI_CLOSEFUTURE_TIMEOUT -1
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 void CloseFuture::arrive()

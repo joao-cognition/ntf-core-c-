@@ -21,9 +21,9 @@ BSLS_IDENT_RCSID(ntsb_resolver_t_cpp, "$Id$ $CSID$")
 #include <ntsb_resolver.h>
 #include <bslim_printer.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 // Provide tests for 'ntsb::Resolver'.
@@ -3807,4 +3807,4 @@ ntsa::Error ResolverTest::getEndpoint(
 }
 
 }  // close namespace ntsb
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

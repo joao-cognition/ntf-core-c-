@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_distinguishedname_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_distinguishedname.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::DistinguishedName'.
@@ -155,4 +155,4 @@ NTSCFG_TEST_FUNCTION(ntsa::DistinguishedNameTest::verifyUsage)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

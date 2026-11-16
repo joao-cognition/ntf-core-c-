@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Enumerate the shutdown event types.
@@ -79,5 +79,5 @@ struct ShutdownEventType {
 bsl::ostream& operator<<(bsl::ostream& stream, ShutdownEventType::Value rhs);
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

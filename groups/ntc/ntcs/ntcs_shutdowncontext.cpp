@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcs_shutdowncontext_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 bool ShutdownContext::equals(const ShutdownContext& other) const

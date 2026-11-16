@@ -129,7 +129,7 @@ BSLS_IDENT("$Id: $")
                        << " [ size = " << (size) << " ]" << BALL_LOG_END;     \
     } while (false)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide algorithms and utilities for coroutines and coroutine-aware

@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntca_drivermechanism_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 DriverMechanism::DriverMechanism(bslma::Allocator* basicAllocator)

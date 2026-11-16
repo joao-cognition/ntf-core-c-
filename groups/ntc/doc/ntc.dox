@@ -1,60 +1,60 @@
 /// @brief
 /// Provide versioning information.
-namespace BloombergLP::ntcscm { }
+namespace BNP_Paribas::ntcscm { }
 
 /// @brief
 /// Provide platform and build configuration.
-namespace BloombergLP::ntccfg { }
+namespace BNP_Paribas::ntccfg { }
 
 /// @brief
 /// Provide value-semantic types for the vocabulary of asynchronous network
 /// programming.
-namespace BloombergLP::ntca { }
+namespace BNP_Paribas::ntca { }
 
 /// @brief
 /// Provide abstract mechanisms for asynchronous sockets, timers, and 
 /// resolvers.
-namespace BloombergLP::ntci { }
+namespace BNP_Paribas::ntci { }
 
 /// @internal @brief
 /// Provide a mechanisms to record and collect metrics.
-namespace BloombergLP::ntcm { }
+namespace BNP_Paribas::ntcm { }
 
 /// @internal @brief
 /// Provide mechanisms and utilities to implement asynchronous sockets.
-namespace BloombergLP::ntcs { }
+namespace BNP_Paribas::ntcs { }
 
 /// @internal @brief
 /// Provide connect, accept, send, and receive queues.
-namespace BloombergLP::ntcq { }
+namespace BNP_Paribas::ntcq { }
 
 /// @internal @brief
 /// Provide connect, accept, send, and receive queues.
-namespace BloombergLP::ntcd { }
+namespace BNP_Paribas::ntcd { }
 
 /// @internal @brief
 /// Provide mechanisms and utilities for debugging and diagnostic.
-namespace BloombergLP::ntcdns { }
+namespace BNP_Paribas::ntcdns { }
 
 /// @internal @brief
 /// Provide implementation details for asynchronous sockets.
-namespace BloombergLP::ntcu { }
+namespace BNP_Paribas::ntcu { }
 
 /// @internal @brief
 /// Provide asynchronous sockets driven by a reactor.
-namespace BloombergLP::ntcr { }
+namespace BNP_Paribas::ntcr { }
 
 /// @internal @brief
 /// Provide asynchronous sockets driven by a proactor.
-namespace BloombergLP::ntcp { }
+namespace BNP_Paribas::ntcp { }
 
 /// @internal @brief
 /// Provide reactors and proactors implemented by the system.
-namespace BloombergLP::ntco { }
+namespace BNP_Paribas::ntco { }
 
 /// @brief
 /// Provide factories for creating mechanisms implemented by the system.
-namespace BloombergLP::ntcf { }
+namespace BNP_Paribas::ntcf { }
 
 /// @defgroup module_ntc NTC
 ///

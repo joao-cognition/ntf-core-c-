@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_backoff_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_backoff.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Backoff'.
@@ -233,4 +233,4 @@ void BackoffTest::log(bsl::size_t step, const bsls::TimeInterval& interval)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

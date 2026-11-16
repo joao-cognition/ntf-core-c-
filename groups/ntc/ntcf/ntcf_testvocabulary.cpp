@@ -5,7 +5,7 @@
 #include <bslim_printer.h>
 #include <bslma_default.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 TestSecurity::TestSecurity(bslma::Allocator* allocator)
@@ -8171,4 +8171,4 @@ bsl::ostream& operator<<(bsl::ostream& stream, TestMessageFlag::Value value)
 }
 }  // close namespace ntcf
 
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

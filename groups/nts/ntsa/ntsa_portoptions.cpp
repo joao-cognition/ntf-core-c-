@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_portoptions_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bool PortOptions::equals(const PortOptions& other) const

@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Enumerate the error event types.
@@ -102,5 +102,5 @@ struct ErrorEventType {
 bsl::ostream& operator<<(bsl::ostream& stream, ErrorEventType::Value rhs);
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

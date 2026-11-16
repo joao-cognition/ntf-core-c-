@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntsa_ipv4address_cpp, "$Id$ $CSID$")
 #include <bsl_limits.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a private implementation.

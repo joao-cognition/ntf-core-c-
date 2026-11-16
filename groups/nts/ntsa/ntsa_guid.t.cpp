@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_guid_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_guid.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Guid'.
@@ -146,4 +146,4 @@ NTSCFG_TEST_FUNCTION(ntsa::GuidTest::verifyBasicOperations)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

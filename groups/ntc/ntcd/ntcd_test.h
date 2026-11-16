@@ -42,7 +42,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsf_system.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Uncomment to restrict testing static vs. dynamic load balancing.
@@ -368,5 +368,5 @@ ntsa::Endpoint TestFramework::any(ntsa::Transport::Value transport)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

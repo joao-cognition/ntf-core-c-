@@ -1,0 +1,78 @@
+/* BNP Paribas documentation theme (overrides on top of the doxygen default). */
+html {
+  --bnp-green: #00915A;
+  --bnp-green-dark: #00593A;
+  --bnp-green-light: #6BBE8C;
+  --bnp-green-tint: #EEF7F2;
+  --bnp-ink: #1D1D1B;
+  --page-link-color: #00794C;
+  --page-visited-link-color: #00593A;
+  --header-background-color: #F3FAF6;
+  --header-separator-color: #CFE7DA;
+  --nav-background-color: #F7FBF9;
+  --nav-foreground-color: #00593A;
+  --nav-text-normal-color: #1D1D1B;
+  --nav-text-hover-color: #00915A;
+  --nav-text-active-color: #FFFFFF;
+  --memdecl-background-color: #F7FBF9;
+  --memdef-title-background-color: #EEF7F2;
+  --memdef-proto-background-color: #F7FBF9;
+  --memdef-border-color: #9DCDB3;
+  --fragment-background-color: #F7FBF9;
+  --fragment-border-color: #CFE7DA;
+  --toc-background-color: #F7FBF9;
+  --toc-border-color: #CFE7DA;
+}
+
+body, table, div, p, dl { font-family: "BNPP Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+#titlearea {
+  background: linear-gradient(90deg, var(--bnp-green-dark), var(--bnp-green));
+  border-bottom: 4px solid var(--bnp-green-light) !important;
+  padding: 6px 0;
+}
+#titlearea table { border-spacing: 12px 0; }
+#projectlogo img { max-height: 56px; border-radius: 10px; }
+#projectname, #projectname a, #projectnumber { color: #FFFFFF !important; font-weight: 700; }
+#projectbrief { color: #E3F3EA !important; }
+#projectname::before {
+  content: "BNP PARIBAS";
+  display: block;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: var(--bnp-green-light);
+}
+
+.sm-dox, #main-menu { background-image: none !important; background-color: #FFFFFF !important; border-bottom: 1px solid var(--header-separator-color); }
+.sm-dox a, .sm-dox a:focus, .sm-dox a:active { color: var(--bnp-green-dark) !important; text-shadow: none !important; background-image: none !important; }
+.sm-dox a:hover, .sm-dox a.highlighted { background-color: var(--bnp-green-tint) !important; color: var(--bnp-green) !important; }
+.sm-dox a span.sub-arrow { border-top-color: var(--bnp-green-dark) !important; }
+
+div.header { background-image: none !important; background-color: var(--header-background-color) !important; border-bottom: 1px solid var(--header-separator-color) !important; }
+div.headertitle .title { color: var(--bnp-green-dark); }
+
+a, a.el, a.elRef, a.code, a.codeRef { color: var(--page-link-color); }
+a:hover { color: var(--bnp-green); }
+
+h2.groupheader { color: var(--bnp-green-dark) !important; border-bottom: 2px solid var(--bnp-green) !important; }
+
+.memtitle { background-image: none !important; background-color: var(--memdef-title-background-color) !important; border-color: var(--memdef-border-color) !important; }
+.memproto, dl.reflist dt { background-image: none !important; background-color: var(--memdef-proto-background-color) !important; border-color: var(--memdef-border-color) !important; text-shadow: none !important; color: var(--bnp-ink) !important; }
+.memdoc, dl.reflist dd { border-color: var(--memdef-border-color) !important; background-image: none !important; }
+.memname { color: var(--bnp-green-dark); }
+
+div.fragment, pre.fragment { background-color: var(--fragment-background-color) !important; border-color: var(--fragment-border-color) !important; }
+
+#nav-tree, #side-nav { background-image: none !important; background-color: var(--nav-background-color) !important; }
+#nav-tree .selected { background-image: none !important; background-color: var(--bnp-green) !important; text-shadow: none !important; }
+#nav-tree .selected a { color: #FFFFFF !important; }
+#nav-tree a { color: var(--bnp-ink); }
+.ui-resizable-e { background-image: none !important; background-color: var(--header-separator-color) !important; }
+
+.navpath ul { background-image: none !important; background-color: var(--bnp-green-dark) !important; border-color: var(--bnp-green-dark) !important; }
+.navpath li { background-image: none !important; }
+.navpath li.navelem a, .navpath li.navelem b, .navpath li.footer, .navpath li.footer a { color: #FFFFFF !important; text-shadow: none !important; }
+
+table.directory tr.even, .memberdecls tr:nth-child(even) { background-color: var(--bnp-green-tint); }
+div.toc { background-color: var(--toc-background-color) !important; border-color: var(--toc-border-color) !important; }
+div.toc h3 { color: var(--bnp-green-dark) !important; }

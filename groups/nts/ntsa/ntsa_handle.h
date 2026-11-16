@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_platform.h>
 #include <bsl_cstddef.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 #if defined(BSLS_PLATFORM_OS_UNIX)

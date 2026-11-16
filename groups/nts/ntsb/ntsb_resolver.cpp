@@ -26,7 +26,7 @@ BSLS_IDENT_RCSID(ntsb_resolver_cpp, "$Id$ $CSID$")
 #include <bslmt_lockguard.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 ResolverOverrides::ResolverOverrides(bslma::Allocator* basicAllocator)

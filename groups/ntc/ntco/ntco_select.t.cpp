@@ -21,9 +21,9 @@ BSLS_IDENT_RCSID(ntco_select_t_cpp, "$Id$ $CSID$")
 #include <ntco_select.h>
 #include <ntco_test.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::Select'.
@@ -77,4 +77,4 @@ NTSCFG_TEST_FUNCTION(ntco::SelectTest::verifyFunctions)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

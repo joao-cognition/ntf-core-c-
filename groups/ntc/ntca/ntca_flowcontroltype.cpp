@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntca_flowcontroltype_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 int FlowControlType::fromInt(FlowControlType::Value* result, int number)

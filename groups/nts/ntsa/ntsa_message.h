@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 #include <bslalg_typetraits.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a tuple of data and the endpoint to which the data should be sent

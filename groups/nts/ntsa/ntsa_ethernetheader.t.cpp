@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_ethernetheader_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_ethernetheader.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::EthernetHeader'.
@@ -66,4 +66,4 @@ NTSCFG_TEST_FUNCTION(ntsa::EthernetHeaderTest::verifyUsage)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

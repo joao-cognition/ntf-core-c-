@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntci_bindfuture_cpp, "$Id$ $CSID$")
 #define NTCI_BINDFUTURE_TIMEOUT -1
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 void BindFuture::arrive(const bsl::shared_ptr<ntci::Bindable>& bindable,

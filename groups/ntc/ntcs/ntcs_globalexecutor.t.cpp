@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_globalexecutor_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_globalexecutor.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::GlobalExecutor'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcs::GlobalExecutorTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntsa_coroutine_cpp, "$Id$ $CSID$")
 
 #if NTS_BUILD_WITH_COROUTINES
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 void* Coroutine::Frame::allocate(bsl::size_t            size,

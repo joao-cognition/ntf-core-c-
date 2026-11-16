@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_map.h>
 #include <bsl_set.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration the event types for a socket.
@@ -990,5 +990,5 @@ bool EventSet::Iterator::operator!=(const EventSet::Iterator& other) const
 }
 
 }  // end namespace ntsa
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

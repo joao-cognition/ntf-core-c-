@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntca_resolversource_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 int ResolverSource::fromInt(ResolverSource::Value* result, int number)

@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntsa_socketoption_cpp, "$Id$ $CSID$")
 #include <bslim_printer.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 SocketOption::SocketOption(const SocketOption& other,

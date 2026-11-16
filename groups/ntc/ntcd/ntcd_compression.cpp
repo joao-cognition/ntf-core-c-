@@ -51,7 +51,7 @@ BSLS_IDENT_RCSID(ntcd_compression_cpp, "$Id$ $CSID$")
 #include <string.h>
 #include <time.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 #if defined(BSLS_PLATFORM_IS_BIG_ENDIAN)

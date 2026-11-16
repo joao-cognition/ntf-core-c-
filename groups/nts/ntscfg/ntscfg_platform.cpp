@@ -69,7 +69,7 @@ BSLS_IDENT_RCSID(ntscfg_platform_cpp, "$Id$ $CSID$")
 // instead of having SIGPIPE raised) during C++ static initialization.
 #define NTSCFG_PLATFORM_AUTO_IGNORE_SIGPIPE 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntscfg {
 
 int Platform::initialize()

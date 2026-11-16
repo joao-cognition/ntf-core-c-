@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcd_datautil_t_cpp, "$Id$ $CSID$")
 
 #include <ntcd_datautil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Provide tests for 'ntcd::DataUtil'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcd::DataUtilTest::verify)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

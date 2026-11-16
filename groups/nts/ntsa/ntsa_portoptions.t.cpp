@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_portoptions_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_portoptions.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::PortOptions'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntsa::PortOptionsTest::verify)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

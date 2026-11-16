@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bdlbb_blobutil.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -302,5 +302,5 @@ bsl::size_t BlobUtil::capacity(const bsl::shared_ptr<bdlbb::Blob>& blob)
 }
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcf_testserver.h>
 #include <ntcf_testvocabulary.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 /// Provide a test fixture.
@@ -186,5 +186,5 @@ class TestFixtureUtil
 };
 
 }  // end namespace ntcf
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

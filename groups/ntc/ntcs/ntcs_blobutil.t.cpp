@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_blobutil_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_blobutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::BlobUtil'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcs::BlobUtilTest::verify)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

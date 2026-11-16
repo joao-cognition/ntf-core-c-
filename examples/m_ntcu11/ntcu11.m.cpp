@@ -36,7 +36,7 @@
 
 #define NTCU11_BUILD_WITH_TLS 0
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 namespace example {
 
@@ -1874,7 +1874,7 @@ void execute()
 
         ntsa::DistinguishedName authorityIdentity;
         authorityIdentity["CN"] = "Authority";
-        authorityIdentity["O"]  = "Bloomberg LP";
+        authorityIdentity["O"]  = "BNP Paribas";
 
         interface->generateKey(&authorityPrivateKey,
                                ntca::EncryptionKeyOptions());
@@ -1892,7 +1892,7 @@ void execute()
 
         ntsa::DistinguishedName serverIdentity;
         serverIdentity["CN"] = "Server";
-        serverIdentity["O"]  = "Bloomberg LP";
+        serverIdentity["O"]  = "BNP Paribas";
 
         interface->generateKey(&serverPrivateKey,
                                ntca::EncryptionKeyOptions());
@@ -2170,11 +2170,11 @@ void execute()
 //             Version: 3 (0x2)
 //             Serial Number: 1 (0x1)
 //             Signature Algorithm: sha256WithRSAEncryption
-//             Issuer: CN=Authority,O=Bloomberg LP
+//             Issuer: CN=Authority,O=BNP Paribas
 //             Validity
 //                 Not Before: May 11 14:40:52 2020 GMT
 //                 Not After : May 11 14:40:52 2021 GMT
-//             Subject: CN=Server,O=Bloomberg LP
+//             Subject: CN=Server,O=BNP Paribas
 //             Subject Public Key Info:
 //                 Public Key Algorithm: rsaEncryption
 //                     RSA Public-Key: (2048 bit)

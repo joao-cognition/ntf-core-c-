@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntcs_nomenclature_cpp, "$Id$ $CSID$")
 #include <bsls_atomicoperations.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Provide global state.

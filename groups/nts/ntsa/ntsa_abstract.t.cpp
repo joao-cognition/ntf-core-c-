@@ -29,9 +29,9 @@ BSLS_IDENT_RCSID(ntscfg_abstract_t_cpp, "$Id$ $CSID$")
 #include <bsl_iostream.h>
 #include <bsl_sstream.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntscfg::Abstract'.
@@ -1797,4 +1797,4 @@ NTSCFG_TEST_FUNCTION(ntsa::AbstractTest::verifyBitString)
 #undef NTSA_ABSTRACT_TEST_LOG_ENCODING_MISMATCH
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

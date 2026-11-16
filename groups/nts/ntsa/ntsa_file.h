@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_assert.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a description of a file for transmission.

@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsls_timeinterval.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Describe a notification of a timestamp of outgoing data.

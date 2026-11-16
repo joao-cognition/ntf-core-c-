@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_set.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide an enumeration the interest types for a socket.
@@ -1303,5 +1303,5 @@ bool InterestSet::Iterator::operator!=(
 }
 
 }  // end namespace ntsa
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

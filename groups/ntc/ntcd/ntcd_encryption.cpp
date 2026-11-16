@@ -45,7 +45,7 @@ BSLS_IDENT_RCSID(ntcd_encryption_cpp, "$Id$ $CSID$")
 // Server: DEFAULT -> HELLO_RECEIVED -> ACCEPT_SENT -> HELLO_SENT
 //                 -> ACCEPT_RECEIVED -> ESTABLISHED
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 class EncryptionKey::Impl

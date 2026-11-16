@@ -20,7 +20,7 @@
 
 #include <ntccfg_likely.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 TimestampCorrelator::TimestampCorrelator(

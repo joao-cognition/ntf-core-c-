@@ -63,7 +63,7 @@
 // trailing whitespace from each token.
 #define NTCDNS_UTILITY_TRIM_TOKEN 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 /// @internal @brief

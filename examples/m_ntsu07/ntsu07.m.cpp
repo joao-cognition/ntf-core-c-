@@ -18,7 +18,7 @@
 #include <bsls_assert.h>
 #include <bsl_vector.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 int main()
 {
