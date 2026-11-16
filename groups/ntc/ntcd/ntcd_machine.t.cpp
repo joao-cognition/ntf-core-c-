@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntcd_machine_t_cpp, "$Id$ $CSID$")
 #include <ntcd_datautil.h>
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Provide tests for 'ntcd::Machine'.
@@ -4448,4 +4448,4 @@ NTSCFG_TEST_FUNCTION(ntcd::MachineTest::verifyReceiveIntoString)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Enumerate the write queue event types.
@@ -95,5 +95,5 @@ struct WriteQueueEventType {
 bsl::ostream& operator<<(bsl::ostream& stream, WriteQueueEventType::Value rhs);
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

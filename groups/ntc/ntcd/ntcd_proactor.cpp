@@ -71,7 +71,7 @@ BSLS_IDENT_RCSID(ntcd_proactor_cpp, "$Id$ $CSID$")
                               << NTCI_LOG_STREAM_END;                         \
     } while (false)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 /// This struct describes the context of a waiter.

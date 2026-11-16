@@ -29,7 +29,7 @@ BSLS_IDENT_RCSID(ntcs_skiplist_cpp, "$Id$ $CSID$")
 #include <bsl_algorithm.h>
 #include <bsl_limits.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 SkipList_RandomLevelGenerator::SkipList_RandomLevelGenerator()

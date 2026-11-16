@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsscm_version.h>
 #include <bsls_objectbuffer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a union of notifications.

@@ -1,4 +1,4 @@
-# Bloomberg Transport Library Usage Examples
+# BNP Paribas Transport Library Usage Examples
 
 - Communication
     - Blocking

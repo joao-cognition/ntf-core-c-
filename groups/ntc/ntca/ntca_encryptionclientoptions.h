@@ -39,7 +39,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe the configuration of encryption in the client role.
@@ -631,5 +631,5 @@ bsl::ostream& operator<<(bsl::ostream&                  stream,
                          const EncryptionClientOptions& object);
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

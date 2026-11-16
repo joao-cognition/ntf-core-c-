@@ -28,7 +28,7 @@
 #include <bsls_timeinterval.h>
 #include <bsl_iostream.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 namespace example {
 

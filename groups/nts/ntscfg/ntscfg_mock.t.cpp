@@ -20,11 +20,11 @@ BSLS_IDENT_RCSID(ntscfg_mock_t_cpp, "$Id$ $CSID$")
 
 #include <ntscfg_mock.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 #if NTSCFG_MOCK_ENABLED
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntscfg {
 
 // Provide tests for 'ntscfg::Mock'.
@@ -265,6 +265,6 @@ NTSCFG_TEST_FUNCTION(ntscfg::MockTest::verifyCase6)
 }
 
 }  // close namespace ntscfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif

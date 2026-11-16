@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsl_cstddef.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -51,5 +51,5 @@ struct MemoryMap {
 };
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

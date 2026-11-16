@@ -41,13 +41,13 @@ BSLS_IDENT_RCSID(ntcr_streamsocket_t_cpp, "$Id$ $CSID$")
 #include <ntscfg_mock.h>
 #include <ntsi_streamsocket.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 // Uncomment to test a particular style of socket-to-thread load balancing,
 // instead of both static and dynamic load balancing.
 // #define NTCR_STREAM_SOCKET_TEST_DYNAMIC_LOAD_BALANCING false
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 // Provide tests for 'ntcr::StreamSocket'.
@@ -5867,4 +5867,4 @@ NTSCFG_TEST_FUNCTION(ntcr::StreamSocketTest::verifyConnectCallbackThread)
 }
 
 }  // close namespace ntcr
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

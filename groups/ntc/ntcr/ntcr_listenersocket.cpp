@@ -145,7 +145,7 @@ BSLS_IDENT_RCSID(ntcr_listenersocket_cpp, "$Id$ $CSID$")
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 void ListenerSocket::processSocketReadable(const ntca::ReactorEvent& event)

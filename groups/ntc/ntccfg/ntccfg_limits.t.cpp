@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntccfg_limits_t_cpp, "$Id$ $CSID$")
 
 #include <ntccfg_limits.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Limits'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::LimitsTest::verify)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

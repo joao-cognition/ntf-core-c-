@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_atomic.h>
 #include <bsls_spinlock.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -147,5 +147,5 @@ bool FlowControlState::closed() const
 }
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

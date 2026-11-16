@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <ntsa_transport.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to receive data from a remote endpoint.
@@ -138,5 +138,5 @@ class Receiver : public ntci::ReceiveCallbackFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

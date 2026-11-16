@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntcd_datautil_cpp, "$Id$ $CSID$")
 #include <bsl_iostream.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 char DataUtil::generateByte(bsl::size_t position, bsl::size_t dataset)

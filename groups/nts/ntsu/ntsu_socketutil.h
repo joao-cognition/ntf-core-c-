@@ -40,7 +40,7 @@ BSLS_IDENT("$Id: $")
 #include <bdls_filesystemutil.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// @internal @brief

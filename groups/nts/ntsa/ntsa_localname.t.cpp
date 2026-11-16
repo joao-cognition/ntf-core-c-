@@ -40,9 +40,9 @@ extern char** environ;
 #error Not implemented
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 #if NTSCFG_BUILD_WITH_ADDRESS_FAMILY_LOCAL
@@ -917,4 +917,4 @@ NTSCFG_TEST_FUNCTION(ntsa::LocalNameTest::verifyLessAbstractness)
 #endif
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

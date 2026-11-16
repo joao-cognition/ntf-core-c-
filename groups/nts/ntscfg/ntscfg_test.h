@@ -99,7 +99,7 @@ BSLS_IDENT("$Id: $")
 #include <balst_stacktracetestallocator.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntscfg {
 
 /// @internal @brief
@@ -416,27 +416,27 @@ inline TestLog::TestLog(int verbosity, bslma::Allocator* basicAllocator)
 
     switch (verbosity) {
     case 0:
-        d_severityLevel = BloombergLP::ball::Severity::e_FATAL;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_FATAL;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_FATAL);
         break;
     case 1:
-        d_severityLevel = BloombergLP::ball::Severity::e_ERROR;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_ERROR;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_ERROR);
         break;
     case 2:
-        d_severityLevel = BloombergLP::ball::Severity::e_WARN;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_WARN;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_WARN);
         break;
     case 3:
-        d_severityLevel = BloombergLP::ball::Severity::e_INFO;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_INFO;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_INFO);
         break;
     case 4:
-        d_severityLevel = BloombergLP::ball::Severity::e_DEBUG;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_DEBUG;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_DEBUG);
         break;
     default:
-        d_severityLevel = BloombergLP::ball::Severity::e_TRACE;
+        d_severityLevel = BNP_Paribas::ball::Severity::e_TRACE;
         bsls::Log::setSeverityThreshold(bsls::LogSeverity::e_TRACE);
         break;
     }
@@ -1119,17 +1119,17 @@ void TestUtil::registerTestCase(const char*             name,
     }
 
     const int testCaseNumber =
-        static_cast<int>(BloombergLP::ntscfg::testCaseVector.size() + 1);
+        static_cast<int>(BNP_Paribas::ntscfg::testCaseVector.size() + 1);
 
-    BloombergLP::ntscfg::TestCaseContext& testCaseContext =
-        BloombergLP::ntscfg::testCaseMap[testCaseNumber];
+    BNP_Paribas::ntscfg::TestCaseContext& testCaseContext =
+        BNP_Paribas::ntscfg::testCaseMap[testCaseNumber];
 
     testCaseContext.setNumber(testCaseNumber);
     testCaseContext.setName(testCaseName);
     testCaseContext.setFunction(function);
 
-    BloombergLP::ntscfg::testCaseVector.push_back(
-        BloombergLP::ntscfg::testCaseMap.find(testCaseNumber));
+    BNP_Paribas::ntscfg::testCaseVector.push_back(
+        BNP_Paribas::ntscfg::testCaseMap.find(testCaseNumber));
 }
 
 bool TestUtil::parseInt(int* result, const char* text)
@@ -1232,10 +1232,10 @@ void TestUtil::call()
 void TestUtil::call(const ntscfg::TestCaseContext& testCaseContext)
 {
     if (testCaseContext.isDefined()) {
-        BloombergLP::ntscfg::testCase = testCaseContext.number();
+        BNP_Paribas::ntscfg::testCase = testCaseContext.number();
 
-        BloombergLP::ntscfg::TestAllocator ta;
-        BloombergLP::ntscfg::testAllocator = &ta;
+        BNP_Paribas::ntscfg::TestAllocator ta;
+        BNP_Paribas::ntscfg::testAllocator = &ta;
 
         testCaseContext.execute();
 
@@ -1251,7 +1251,7 @@ void TestUtil::call(
     const bsl::vector<const ntscfg::TestCaseContext*>& testCaseContextVector)
 {
     for (bsl::size_t i = 0; i < testCaseContextVector.size(); ++i) {
-        const BloombergLP::ntscfg::TestCaseContext& testCaseContext =
+        const BNP_Paribas::ntscfg::TestCaseContext& testCaseContext =
             *testCaseContextVector[i];
 
         ntscfg::TestUtil::call(testCaseContext);
@@ -1346,7 +1346,7 @@ class TestRegistration
 TestRegistration::TestRegistration(const char*             name,
                                    const TestCaseFunction& function)
 {
-    BloombergLP::ntscfg::TestUtil::registerTestCase(name, function);
+    BNP_Paribas::ntscfg::TestUtil::registerTestCase(name, function);
 }
 
 TestRegistration::~TestRegistration()
@@ -1354,25 +1354,25 @@ TestRegistration::~TestRegistration()
 }
 
 }  // close namespace ntscfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 int main(int argc, char** argv)
 {
-    BloombergLP::ntscfg::Platform::initialize();
-    BloombergLP::ntscfg::Platform::ignore(BloombergLP::ntscfg::Signal::e_PIPE);
+    BNP_Paribas::ntscfg::Platform::initialize();
+    BNP_Paribas::ntscfg::Platform::ignore(BNP_Paribas::ntscfg::Signal::e_PIPE);
 
-    BloombergLP::bslmt::ThreadUtil::setThreadName("main");
+    BNP_Paribas::bslmt::ThreadUtil::setThreadName("main");
 
-    BloombergLP::bsls::Log::setLogMessageHandler(
-        &BloombergLP::ntscfg::TestLog::printLogMessage);
+    BNP_Paribas::bsls::Log::setLogMessageHandler(
+        &BNP_Paribas::ntscfg::TestLog::printLogMessage);
 
-    BloombergLP::ntscfg::testCase      = 0;
-    BloombergLP::ntscfg::testVerbosity = 0;
-    BloombergLP::ntscfg::testArgc      = argc;
-    BloombergLP::ntscfg::testArgv      = argv;
+    BNP_Paribas::ntscfg::testCase      = 0;
+    BNP_Paribas::ntscfg::testVerbosity = 0;
+    BNP_Paribas::ntscfg::testArgc      = argc;
+    BNP_Paribas::ntscfg::testArgv      = argv;
 
     try {
-        BloombergLP::bdlb::NullableValue<bsl::string> concern;
+        BNP_Paribas::bdlb::NullableValue<bsl::string> concern;
 
         bool list = false;
 
@@ -1383,7 +1383,7 @@ int main(int argc, char** argv)
             if ((0 == bsl::strcmp(arg, "-?")) ||
                 (0 == bsl::strcmp(arg, "--help")))
             {
-                BloombergLP::ntscfg::TestUtil::help(argv[0]);
+                BNP_Paribas::ntscfg::TestUtil::help(argv[0]);
                 return 0;
             }
 
@@ -1400,14 +1400,14 @@ int main(int argc, char** argv)
             {
                 ++i;
                 if (i >= argc) {
-                    BloombergLP::ntscfg::TestUtil::help(argv[0]);
+                    BNP_Paribas::ntscfg::TestUtil::help(argv[0]);
                     return 1;
                 }
                 arg = argv[i];
 
                 int level = 0;
-                if (BloombergLP::ntscfg::TestUtil::parseInt(&level, arg)) {
-                    BloombergLP::ntscfg::testVerbosity = level;
+                if (BNP_Paribas::ntscfg::TestUtil::parseInt(&level, arg)) {
+                    BNP_Paribas::ntscfg::testVerbosity = level;
                 }
                 else {
                     bsl::cerr << "The log verbosity " << level << " is invalid"
@@ -1422,7 +1422,7 @@ int main(int argc, char** argv)
             if (0 == bsl::strcmp(arg, "--concern")) {
                 ++i;
                 if (i >= argc) {
-                    BloombergLP::ntscfg::TestUtil::help(argv[0]);
+                    BNP_Paribas::ntscfg::TestUtil::help(argv[0]);
                     return 1;
                 }
                 arg = argv[i];
@@ -1437,14 +1437,14 @@ int main(int argc, char** argv)
                 concern.makeValue(bsl::string(arg));
             }
             else {
-                BloombergLP::ntscfg::testVerbosity++;
+                BNP_Paribas::ntscfg::testVerbosity++;
             }
 
             ++i;
         }
 
-        BloombergLP::ntscfg::TestLog testLog(
-            BloombergLP::ntscfg::testVerbosity);
+        BNP_Paribas::ntscfg::TestLog testLog(
+            BNP_Paribas::ntscfg::testVerbosity);
 
         if (concern.has_value() && concern.value() == "0") {
             concern.reset();
@@ -1452,29 +1452,29 @@ int main(int argc, char** argv)
 
         if (concern.has_value()) {
             int number = 0;
-            if (BloombergLP::ntscfg::TestUtil::parseInt(
+            if (BNP_Paribas::ntscfg::TestUtil::parseInt(
                     &number,
                     concern.value().c_str()))
             {
-                if (BloombergLP::ntscfg::testCaseMap.contains(number)) {
-                    BloombergLP::ntscfg::testCase = number;
+                if (BNP_Paribas::ntscfg::testCaseMap.contains(number)) {
+                    BNP_Paribas::ntscfg::testCase = number;
 
-                    const BloombergLP::ntscfg::TestCaseContext&
+                    const BNP_Paribas::ntscfg::TestCaseContext&
                     testCaseContext =
-                        BloombergLP::ntscfg::testCaseMap
-                            [BloombergLP::ntscfg::testCase];
+                        BNP_Paribas::ntscfg::testCaseMap
+                            [BNP_Paribas::ntscfg::testCase];
 
                     if (list) {
-                        BloombergLP::ntscfg::TestUtil::list(
+                        BNP_Paribas::ntscfg::TestUtil::list(
                             testCaseContext);
                     }
                     else {
-                        BloombergLP::ntscfg::TestUtil::call(
+                        BNP_Paribas::ntscfg::TestUtil::call(
                             testCaseContext);
                     }
                 }
                 else {
-                    if (BloombergLP::ntscfg::testVerbosity >= 3) {
+                    if (BNP_Paribas::ntscfg::testVerbosity >= 3) {
                         bsl::cerr << "The test case number " << number
                                   << " is not found" << bsl::endl;
                     }
@@ -1482,26 +1482,26 @@ int main(int argc, char** argv)
                 }
             }
             else {
-                bsl::vector<const BloombergLP::ntscfg::TestCaseContext*>
+                bsl::vector<const BNP_Paribas::ntscfg::TestCaseContext*>
                 testCaseContextVector;
 
                 bool pattern = false;
                 if (concern.value().find('*') != bsl::string::npos) {
                     testCaseContextVector.reserve(
-                        BloombergLP::ntscfg::testCaseMap.size());
+                        BNP_Paribas::ntscfg::testCaseMap.size());
                     pattern = true;
                 }
 
-                for (BloombergLP::ntscfg::TestCaseContextMap::const_iterator
-                         it  = BloombergLP::ntscfg::testCaseMap.begin();
-                         it != BloombergLP::ntscfg::testCaseMap.end();
+                for (BNP_Paribas::ntscfg::TestCaseContextMap::const_iterator
+                         it  = BNP_Paribas::ntscfg::testCaseMap.begin();
+                         it != BNP_Paribas::ntscfg::testCaseMap.end();
                        ++it)
                 {
-                    const BloombergLP::ntscfg::TestCaseContext&
+                    const BNP_Paribas::ntscfg::TestCaseContext&
                         testCaseContext = it->second;
 
                     if (pattern) {
-                        if (BloombergLP::ntscfg::TestUtil::match(
+                        if (BNP_Paribas::ntscfg::TestUtil::match(
                             testCaseContext.name(),
                             concern.value()))
                         {
@@ -1517,7 +1517,7 @@ int main(int argc, char** argv)
                 }
 
                 if (testCaseContextVector.empty()) {
-                    if (BloombergLP::ntscfg::testVerbosity >= 3) {
+                    if (BNP_Paribas::ntscfg::testVerbosity >= 3) {
                         bsl::cerr << "No test case(s) matching \""
                                   << concern.value()
                                   << "\" are found" << bsl::endl;
@@ -1526,33 +1526,33 @@ int main(int argc, char** argv)
                 }
 
                 if (list) {
-                    BloombergLP::ntscfg::TestUtil::list(
+                    BNP_Paribas::ntscfg::TestUtil::list(
                         testCaseContextVector);
                 }
                 else {
-                    BloombergLP::ntscfg::TestUtil::call(
+                    BNP_Paribas::ntscfg::TestUtil::call(
                         testCaseContextVector);
                 }
             }
         }
         else {
             if (list) {
-                BloombergLP::ntscfg::TestUtil::list();
+                BNP_Paribas::ntscfg::TestUtil::list();
             }
             else {
-                BloombergLP::ntscfg::TestUtil::call();
+                BNP_Paribas::ntscfg::TestUtil::call();
             }
         }
     }
     catch (const bsl::exception& e) {
         bsl::printf("Test %d failed: %s\n",
-                    BloombergLP::ntscfg::testCase,
+                    BNP_Paribas::ntscfg::testCase,
                     e.what());
         return 1;
     }
     catch (...) {
         bsl::printf("Test %d failed: %s\n",
-                    BloombergLP::ntscfg::testCase,
+                    BNP_Paribas::ntscfg::testCase,
                     "Unknown exception");
         return 1;
     }
@@ -1576,7 +1576,7 @@ int main(int argc, char** argv)
 // 'concernStringLiteral'. Note that this macro is private to the
 // implementation and should not be used.
 #define NTSCFG_TEST_FUNCTION(function)                                        \
-    BloombergLP::ntscfg::TestRegistration NTSCFG_TEST_FUNCTION_NAME(          \
+    BNP_Paribas::ntscfg::TestRegistration NTSCFG_TEST_FUNCTION_NAME(          \
         test_,                                                                \
         __LINE__)(#function, &(function));                                    \
     void function()
@@ -1587,7 +1587,7 @@ int main(int argc, char** argv)
 // 'concernStringLiteral'. Note that this macro is private to the
 // implementation and should not be used.
 #define NTSCFG_TEST_FUNCTION(function)                                        \
-    BloombergLP::ntscfg::TestRegistration NTSCFG_TEST_FUNCTION_NAME(          \
+    BNP_Paribas::ntscfg::TestRegistration NTSCFG_TEST_FUNCTION_NAME(          \
         test_,                                                                \
         __COUNTER__)(#function, &(function));                                 \
     void function()
@@ -1793,7 +1793,7 @@ int main(int argc, char** argv)
 /// The verbosity at which the test driver is run.
 ///
 /// @ingroup module_ntscfg
-#define NTSCFG_TEST_VERBOSITY BloombergLP::ntscfg::testVerbosity
+#define NTSCFG_TEST_VERBOSITY BNP_Paribas::ntscfg::testVerbosity
 
 /// @internal @brief
 /// The error verbosity level.
@@ -1829,30 +1829,30 @@ int main(int argc, char** argv)
 /// The number of command line arguments.
 ///
 /// @ingroup module_ntscfg
-#define NTSCFG_TEST_ARGC BloombergLP::ntscfg::testArgc
+#define NTSCFG_TEST_ARGC BNP_Paribas::ntscfg::testArgc
 
 /// @internal @brief
 /// The array of command line arguments.
 ///
 /// @ingroup module_ntscfg
-#define NTSCFG_TEST_ARGV BloombergLP::ntscfg::testArgv
+#define NTSCFG_TEST_ARGV BNP_Paribas::ntscfg::testArgv
 
 /// @internal @brief
 /// The pointer to the test allocator.
 ///
 /// @ingroup module_ntscfg
-#define NTSCFG_TEST_ALLOCATOR BloombergLP::ntscfg::testAllocator
+#define NTSCFG_TEST_ALLOCATOR BNP_Paribas::ntscfg::testAllocator
 
 /// @internal @brief
 /// Log at the fatal severity level.
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_FATAL                                                 \
-    if (BloombergLP::bsls::LogSeverity::e_FATAL <=                            \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_FATAL <=                            \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_FATAL;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_FATAL;                          \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1861,11 +1861,11 @@ int main(int argc, char** argv)
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_ERROR                                                 \
-    if (BloombergLP::bsls::LogSeverity::e_ERROR <=                            \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_ERROR <=                            \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_ERROR;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_ERROR;                          \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1874,11 +1874,11 @@ int main(int argc, char** argv)
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_WARN                                                  \
-    if (BloombergLP::bsls::LogSeverity::e_WARN <=                             \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_WARN <=                             \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_WARN;                           \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_WARN;                           \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1887,11 +1887,11 @@ int main(int argc, char** argv)
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_INFO                                                  \
-    if (BloombergLP::bsls::LogSeverity::e_INFO <=                             \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_INFO <=                             \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_INFO;                           \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_INFO;                           \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1900,11 +1900,11 @@ int main(int argc, char** argv)
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_DEBUG                                                 \
-    if (BloombergLP::bsls::LogSeverity::e_DEBUG <=                            \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_DEBUG <=                            \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_DEBUG;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_DEBUG;                          \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1913,11 +1913,11 @@ int main(int argc, char** argv)
 ///
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_TRACE                                                 \
-    if (BloombergLP::bsls::LogSeverity::e_TRACE <=                            \
-        BloombergLP::bsls::Log::severityThreshold())                          \
+    if (BNP_Paribas::bsls::LogSeverity::e_TRACE <=                            \
+        BNP_Paribas::bsls::Log::severityThreshold())                          \
     {                                                                         \
-        BloombergLP::bsls::LogSeverity::Enum ntslSeverity =                   \
-            BloombergLP::bsls::LogSeverity::e_TRACE;                          \
+        BNP_Paribas::bsls::LogSeverity::Enum ntslSeverity =                   \
+            BNP_Paribas::bsls::LogSeverity::e_TRACE;                          \
         bsl::stringstream ntslStream;                                         \
         ntslStream
 
@@ -1927,7 +1927,7 @@ int main(int argc, char** argv)
 /// @ingroup module_ntscfg
 #define NTSCFG_TEST_LOG_END                                                   \
     bsl::flush;                                                               \
-    BloombergLP::bsls::Log::logFormattedMessage(ntslSeverity,                 \
+    BNP_Paribas::bsls::Log::logFormattedMessage(ntslSeverity,                 \
                                                 __FILE__,                     \
                                                 __LINE__,                     \
                                                 "%s",                         \

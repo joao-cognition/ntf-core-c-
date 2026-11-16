@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntcdns_protocol_t_cpp, "$Id$ $CSID$")
 #include <ntsa_ipv4address.h>
 #include <ntsa_ipv6address.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 // Provide tests for 'ntcdns::Protocol'.
@@ -974,4 +974,4 @@ NTSCFG_TEST_FUNCTION(ntcdns::ProtocolTest::verifyWksMalformed)
 }
 
 }  // close namespace ntcdns
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

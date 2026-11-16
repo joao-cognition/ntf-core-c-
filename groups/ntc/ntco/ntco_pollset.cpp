@@ -159,7 +159,7 @@ BSLS_IDENT_RCSID(ntco_pollset_cpp, "$Id$ $CSID$")
                    numEntries,                                                \
                    error.text().c_str())
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 class Pollset : public ntci::Reactor,

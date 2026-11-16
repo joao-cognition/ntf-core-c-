@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntso_test_t_cpp, "$Id$ $CSID$")
 
 #include <ntso_test.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntso {
 
 // Provide tests for 'ntso::Test'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntso::TestTest::verify)
 }
 
 }  // close namespace ntso
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

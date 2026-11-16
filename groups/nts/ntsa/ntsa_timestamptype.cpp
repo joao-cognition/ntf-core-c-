@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_timestamptype_cpp, "$Id$ $CSID$")
 
 #include <bdlb_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 int TimestampType::fromInt(TimestampType::Value* result, int number)

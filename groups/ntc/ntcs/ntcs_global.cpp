@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntcs_global_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_cstdlib.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Provide a private implementation.

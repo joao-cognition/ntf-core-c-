@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_types.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe a token to cancel an send operation.

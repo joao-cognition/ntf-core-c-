@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_monitorable_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_monitorable.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Monitorable'.
@@ -861,4 +861,4 @@ NTSCFG_TEST_FUNCTION(ntcs::MonitorableTest::verifyUsage)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

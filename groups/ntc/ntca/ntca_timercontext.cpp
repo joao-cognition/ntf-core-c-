@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_timercontext_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool TimerContext::equals(const TimerContext& other) const

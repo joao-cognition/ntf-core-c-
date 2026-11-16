@@ -33,7 +33,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_iomanip.h>
 #include <bsl_ios.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a GUID (Globally Unique IDentifier) that can be used to uniquely

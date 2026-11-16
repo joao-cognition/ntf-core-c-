@@ -21,9 +21,9 @@ BSLS_IDENT_RCSID(ntca_timeroptions_t_cpp, "$Id$ $CSID$")
 
 #include <ntca_timeroptions.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 // Provide tests for 'ntca::TimerOptions'.
@@ -755,4 +755,4 @@ const bool TimerOptionsTest::k_ONE_SHOT = true;
 const bool TimerOptionsTest::k_DRIFT    = true;
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

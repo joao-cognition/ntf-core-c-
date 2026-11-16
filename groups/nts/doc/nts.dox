@@ -1,44 +1,44 @@
 /// @brief
 /// Provide an enterprise namespace
-namespace BloombergLP { }
+namespace BNP_Paribas { }
 
 /// @brief
 /// Provide versioning information.
-namespace BloombergLP::ntsscm { }
+namespace BNP_Paribas::ntsscm { }
 
 /// @brief
 /// Provide platform and build configuration.
-namespace BloombergLP::ntscfg { }
+namespace BNP_Paribas::ntscfg { }
 
 /// @brief
 /// Provide value-semantic types for the vocabulary of network programming.
-namespace BloombergLP::ntsa { }
+namespace BNP_Paribas::ntsa { }
 
 /// @brief
 /// Provide abstract mechanisms for blocking and non-blocking sockets and 
 /// resolvers.
-namespace BloombergLP::ntsi { }
+namespace BNP_Paribas::ntsi { }
 
 /// @internal @brief
 /// Provide debugging and diagnostic mechanisms and utilities.
-namespace BloombergLP::ntsd { }
+namespace BNP_Paribas::ntsd { }
 
 /// @internal @brief
 /// Provide low-level utilities for blocking and non-blocking network 
 /// programming.
-namespace BloombergLP::ntsu { }
+namespace BNP_Paribas::ntsu { }
 
 /// @internal @brief
 /// Provide system implementations of blocking and non-blocking sockets.
-namespace BloombergLP::ntsb { }
+namespace BNP_Paribas::ntsb { }
 
 /// @internal @brief
 /// Provide system implementations of polling mechanisms.
-namespace BloombergLP::ntso { }
+namespace BNP_Paribas::ntso { }
 
 /// @brief
 /// Provide factories for creating mechanisms implemented by the system.
-namespace BloombergLP::ntsf { }
+namespace BNP_Paribas::ntsf { }
 
 /// @defgroup module_nts NTS
 ///

@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_strand.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to close a resource.
@@ -60,5 +60,5 @@ class Closable : public ntci::CloseCallbackFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

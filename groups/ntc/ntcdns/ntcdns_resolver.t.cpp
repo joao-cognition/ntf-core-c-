@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntcdns_resolver_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 // Provide tests for 'ntcdns::Resolver'.
@@ -2193,4 +2193,4 @@ NTSCFG_TEST_FUNCTION(ntcdns::ResolverTest::verifyCase21)
 }
 
 }  // close namespace ntcdns
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

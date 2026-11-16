@@ -70,7 +70,7 @@ BSLS_IDENT_RCSID(ntcd_reactor_cpp, "$Id$ $CSID$")
                               << NTCI_LOG_STREAM_END;                         \
     } while (false)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 const bool Reactor::k_INTERRUPT_ALL = false;

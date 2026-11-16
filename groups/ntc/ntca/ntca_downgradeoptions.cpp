@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_downgradeoptions_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool DowngradeOptions::equals(const DowngradeOptions& other) const
@@ -49,4 +49,4 @@ bsl::ostream& DowngradeOptions::print(bsl::ostream& stream,
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_cstddef.h>
 #include <bsl_cstdint.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 /// The default size of each blob buffer used to store incoming data. The

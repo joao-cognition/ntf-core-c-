@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_tcpcongestioncontrol_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 TcpCongestionControl::TcpCongestionControl(bslma::Allocator* basicAllocator)
@@ -50,7 +50,7 @@ TcpCongestionControl::TcpCongestionControl(
 }
 
 TcpCongestionControl::TcpCongestionControl(
-    const BloombergLP::ntsa::TcpCongestionControl& original,
+    const BNP_Paribas::ntsa::TcpCongestionControl& original,
     bslma::Allocator*                              basicAllocator)
 : d_algorithm(original.d_algorithm, basicAllocator)
 {
@@ -70,7 +70,7 @@ TcpCongestionControl& TcpCongestionControl::operator=(
 }
 
 TcpCongestionControl& TcpCongestionControl::operator=(
-    const BloombergLP::ntsa::TcpCongestionControl& other)
+    const BNP_Paribas::ntsa::TcpCongestionControl& other)
 {
     if (this != &other) {
         d_algorithm = other.d_algorithm;

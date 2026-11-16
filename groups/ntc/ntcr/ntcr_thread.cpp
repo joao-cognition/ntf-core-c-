@@ -48,7 +48,7 @@ BSLS_IDENT_RCSID(ntcr_thread_cpp, "$Id$ $CSID$")
 
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 void* Thread::run(ntcr::Thread* thread)

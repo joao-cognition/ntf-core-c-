@@ -29,7 +29,7 @@ BSLS_IDENT_RCSID(ntcq_send_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_limits.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 bool SendQueueEntry::batchNext(ntsa::ConstBufferArray*  result,

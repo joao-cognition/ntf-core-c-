@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_timeinterval.h>
 #include <bsl_variant.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Describe the parameters to the calculation of backoff (or iterative
@@ -298,6 +298,6 @@ NTSCFG_INLINE void hashAppend(HASH_ALGORITHM& algorithm, const Backoff& value)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif

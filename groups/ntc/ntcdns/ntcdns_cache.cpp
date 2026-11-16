@@ -26,7 +26,7 @@
 #include <bslmt_lockguard.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 CacheHostEntry::CacheHostEntry(bslma::Allocator* basicAllocator)

@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntcs_ratelimiter_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 bool RateLimiter::supportsExactly(bsl::uint64_t             limit,

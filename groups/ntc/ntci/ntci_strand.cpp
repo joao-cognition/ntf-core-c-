@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntci_strand_cpp, "$Id$ $CSID$")
 
 #include <bslmt_threadutil.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Describe the process-wide strand state.

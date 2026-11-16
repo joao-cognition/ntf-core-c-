@@ -392,7 +392,7 @@ BSLS_IDENT_RCSID(ntco_ioring_cpp, "$Id$ $CSID$")
     NTCI_LOG_TRACE("I/O ring interrupt complete: numPending = %u",            \
                    (unsigned int)(numPending.load()))
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Enumerate the I/O ring operations.

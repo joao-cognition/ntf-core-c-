@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcq_bind_t_cpp, "$Id$ $CSID$")
 
 #include <ntcq_bind.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 // Provide tests for 'ntcq::BindQueue'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcq::BindQueueTest::verify)
 }
 
 }  // close namespace ntcq
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

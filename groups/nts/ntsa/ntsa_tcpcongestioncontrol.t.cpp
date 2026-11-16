@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_tcpcongestioncontrol_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_tcpcongestioncontrol.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::TcpCongestionControl'.
@@ -253,4 +253,4 @@ NTSCFG_TEST_FUNCTION(
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

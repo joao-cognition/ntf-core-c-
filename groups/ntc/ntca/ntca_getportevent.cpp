@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_getportevent_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool GetPortEvent::equals(const GetPortEvent& other) const

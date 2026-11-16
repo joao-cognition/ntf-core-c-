@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsf_system_t_cpp, "$Id$ $CSID$")
 
 #include <ntsf_system.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsf {
 
 // Provide tests for 'ntsf::System'.
@@ -705,4 +705,4 @@ NTSCFG_TEST_FUNCTION(ntsf::SystemTest::verifyCase7)
 }
 
 }  // close namespace ntsf
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

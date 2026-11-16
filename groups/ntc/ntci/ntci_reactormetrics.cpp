@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntci_reactormetrics_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 ReactorMetrics::~ReactorMetrics()

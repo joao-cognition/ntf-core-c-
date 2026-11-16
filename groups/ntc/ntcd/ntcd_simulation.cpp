@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntcd_simulation_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 Simulation::Simulation(bslma::Allocator* basicAllocator)

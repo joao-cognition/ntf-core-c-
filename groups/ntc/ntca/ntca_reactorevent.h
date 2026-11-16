@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_cstddef.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Define a type alias for a mask of socket events.
@@ -408,5 +408,5 @@ void hashAppend(HASH_ALGORITHM& algorithm, const ReactorEvent& value)
 }
 
 }  // end namespace ntca
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

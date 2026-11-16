@@ -57,7 +57,7 @@ BSLS_IDENT_RCSID(ntcs_event_cpp, "$Id$ $CSID$")
 // clang-format on
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 int EventType::fromInt(EventType::Value* result, int number)

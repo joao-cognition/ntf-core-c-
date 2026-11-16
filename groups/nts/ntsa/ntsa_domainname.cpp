@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntsa_domainname_cpp, "$Id$ $CSID$")
 #include <bsl_cstring.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide a private implementation.

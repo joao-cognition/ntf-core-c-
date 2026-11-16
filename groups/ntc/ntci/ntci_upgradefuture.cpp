@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntci_upgradefuture_cpp, "$Id$ $CSID$")
 #define NTCI_CONNECTFUTURE_TIMEOUT -1
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 void UpgradeFuture::arrive(const bsl::shared_ptr<ntci::Upgradable>& upgradable,

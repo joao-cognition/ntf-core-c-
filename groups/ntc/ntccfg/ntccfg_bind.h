@@ -104,52 +104,52 @@ BSLS_IDENT("$Id: $")
 /// specified arguments when called.
 /// @ingroup module_ntccfg
 #define NTCCFG_BIND(function, ...)                                            \
-    BloombergLP::bdlf::BindUtil::bind(function, __VA_ARGS__)
+    BNP_Paribas::bdlf::BindUtil::bind(function, __VA_ARGS__)
 
 /// @internal @brief
 /// The placeholder for passing through the 1st argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_1 BloombergLP::bdlf::PlaceHolders::_1
+#define NTCCFG_BIND_PLACEHOLDER_1 BNP_Paribas::bdlf::PlaceHolders::_1
 
 /// @internal @brief
 /// The placeholder for passing through the 2nd argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_2 BloombergLP::bdlf::PlaceHolders::_2
+#define NTCCFG_BIND_PLACEHOLDER_2 BNP_Paribas::bdlf::PlaceHolders::_2
 
 /// @internal @brief
 /// The placeholder for passing through the 3rd argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_3 BloombergLP::bdlf::PlaceHolders::_3
+#define NTCCFG_BIND_PLACEHOLDER_3 BNP_Paribas::bdlf::PlaceHolders::_3
 
 /// @internal @brief
 /// The placeholder for passing through the 4th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_4 BloombergLP::bdlf::PlaceHolders::_4
+#define NTCCFG_BIND_PLACEHOLDER_4 BNP_Paribas::bdlf::PlaceHolders::_4
 
 /// @internal @brief
 /// The placeholder for passing through the 5th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_5 BloombergLP::bdlf::PlaceHolders::_5
+#define NTCCFG_BIND_PLACEHOLDER_5 BNP_Paribas::bdlf::PlaceHolders::_5
 
 /// @internal @brief
 /// The placeholder for passing through the 6th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_6 BloombergLP::bdlf::PlaceHolders::_6
+#define NTCCFG_BIND_PLACEHOLDER_6 BNP_Paribas::bdlf::PlaceHolders::_6
 
 /// @internal @brief
 /// The placeholder for passing through the 7th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_7 BloombergLP::bdlf::PlaceHolders::_7
+#define NTCCFG_BIND_PLACEHOLDER_7 BNP_Paribas::bdlf::PlaceHolders::_7
 
 /// @internal @brief
 /// The placeholder for passing through the 8th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_8 BloombergLP::bdlf::PlaceHolders::_8
+#define NTCCFG_BIND_PLACEHOLDER_8 BNP_Paribas::bdlf::PlaceHolders::_8
 
 /// @internal @brief
 /// The placeholder for passing through the 9th argument to a bound function.
 /// @ingroup module_ntccfg
-#define NTCCFG_BIND_PLACEHOLDER_9 BloombergLP::bdlf::PlaceHolders::_9
+#define NTCCFG_BIND_PLACEHOLDER_9 BNP_Paribas::bdlf::PlaceHolders::_9
 
 #endif
 
@@ -158,10 +158,10 @@ BSLS_IDENT("$Id: $")
 /// the object managed by the specified 'smartPtr' when called.
 /// @ingroup module_ntccfg
 #define NTCCFG_BIND_WEAK(memberFunction, smartPtr)                            \
-    BloombergLP::ntccfg::WeakMemberFunctionUtil::bindWeak(memberFunction,     \
+    BNP_Paribas::ntccfg::WeakMemberFunctionUtil::bindWeak(memberFunction,     \
                                                           smartPtr)
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 /// @internal @brief

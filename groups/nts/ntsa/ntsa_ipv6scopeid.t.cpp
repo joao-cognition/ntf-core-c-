@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_ipv6scopeid_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_ipv6scopeid.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Ipv6ScopeId'.
@@ -98,4 +98,4 @@ NTSCFG_TEST_FUNCTION(ntsa::Ipv6ScopeIdTest::verifyCase2)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

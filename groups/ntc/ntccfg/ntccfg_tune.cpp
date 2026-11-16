@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntccfg_tune_cpp, "$Id$ $CSID$")
 #include <bsl_cstdlib.h>
 #include <bsl_limits.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide a suite of functions for the implementation of 'ntccfg::Tune'.

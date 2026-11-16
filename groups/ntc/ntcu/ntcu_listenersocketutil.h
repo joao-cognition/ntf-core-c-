@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_transport.h>
 #include <bdlb_nullablevalue.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 /// @internal @brief
@@ -57,5 +57,5 @@ struct ListenerSocketUtil {
 };
 
 }  // end namespace ntcu
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -32,7 +32,7 @@ BSLS_IDENT_RCSID(ntcs_interactable_cpp, "$Id$ $CSID$")
 #include <bsl_unordered_map.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 InteractableRegistry::InteractableRegistry(bslma::Allocator* basicAllocator)
@@ -261,4 +261,4 @@ void InteractableUtil::exit()
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

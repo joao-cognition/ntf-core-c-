@@ -34,13 +34,13 @@ BSLS_IDENT_RCSID(ntcp_datagramsocket_t_cpp, "$Id$ $CSID$")
 #include <ntsa_error.h>
 #include <ntsa_transport.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 // Uncomment to test a particular style of socket-to-thread load balancing,
 // instead of both static and dynamic load balancing.
 // #define NTCP_DATAGRAM_SOCKET_TEST_DYNAMIC_LOAD_BALANCING true
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcp {
 
 // Provide tests for 'ntcp::DatagramSocket'.
@@ -1857,4 +1857,4 @@ NTSCFG_TEST_FUNCTION(ntcp::DatagramSocketTest::verifyReceiveCancellation)
 }
 
 }  // close namespace ntcp
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

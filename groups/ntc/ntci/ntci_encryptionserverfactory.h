@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <bdlbb_blob.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to create encryption servers.
@@ -75,5 +75,5 @@ class EncryptionServerFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

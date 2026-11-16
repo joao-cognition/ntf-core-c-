@@ -35,7 +35,7 @@ BSLS_IDENT_RCSID(ntsa_abstract_cpp, "$Id$ $CSID$")
 #include <bsl_iomanip.h>
 #include <bsl_iostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 ntsa::Error AbstractSyntaxTagClass::fromValue(Value* result, bsl::size_t value)

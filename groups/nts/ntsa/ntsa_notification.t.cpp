@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_notification_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_notification.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Notification'.
@@ -186,4 +186,4 @@ NTSCFG_TEST_FUNCTION(ntsa::NotificationTest::verifyCase7)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

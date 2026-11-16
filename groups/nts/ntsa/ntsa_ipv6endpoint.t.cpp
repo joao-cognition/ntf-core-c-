@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_ipv6endpoint_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_ipv6endpoint.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Ipv6Endpoint'.
@@ -68,4 +68,4 @@ NTSCFG_TEST_FUNCTION(ntsa::Ipv6EndpointTest::verify)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

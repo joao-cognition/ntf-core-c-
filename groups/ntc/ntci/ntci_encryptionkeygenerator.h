@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to generate and sign private keys as used in public
@@ -65,5 +65,5 @@ class EncryptionKeyGenerator
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

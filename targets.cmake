@@ -23,7 +23,7 @@ ntf_repository(
     PATH
         ${CMAKE_CURRENT_LIST_DIR}
     URL
-        "http://github.com/bloomberg/ntf-core"
+        "http://github.com/joao-cognition/ntf-core-c-"
     UFID
         ${NTF_BUILD_UFID}
 )

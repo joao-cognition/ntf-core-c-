@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_id.h>
 #include <bsls_keyword.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to an object having locally and globally unique

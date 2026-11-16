@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcu_timestampcorrelator_t_cpp, "$Id$ $CSID$")
 
 #include <ntcu_timestampcorrelator.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 // Provide tests for 'ntcu::TimestampCorrelator'.
@@ -414,4 +414,4 @@ NTSCFG_TEST_FUNCTION(ntcu::TimestampCorrelatorTest::verifyCase6)
 }
 
 }  // close namespace ntcu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

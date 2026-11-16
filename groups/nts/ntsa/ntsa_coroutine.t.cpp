@@ -49,9 +49,9 @@ BSLS_IDENT_RCSID(ntsa_coroutine_t_cpp, "$Id$ $CSID$")
 
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Coroutine'.
@@ -2618,8 +2618,8 @@ NTSCFG_TEST_FUNCTION(ntsa::CoroutineTest::verifySandbox)
 
     coVerifySandbox(ntsa::AllocatorArg(), allocator);
 
-    BloombergLP::ntscfg::TestAllocator* testAllocator =
-        dynamic_cast<BloombergLP::ntscfg::TestAllocator*>(
+    BNP_Paribas::ntscfg::TestAllocator* testAllocator =
+        dynamic_cast<BNP_Paribas::ntscfg::TestAllocator*>(
             NTSCFG_TEST_ALLOCATOR);
 
     if (testAllocator != 0) {
@@ -2630,4 +2630,4 @@ NTSCFG_TEST_FUNCTION(ntsa::CoroutineTest::verifySandbox)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

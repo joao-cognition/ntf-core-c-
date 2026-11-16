@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntcs_reservation_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 Reservation::Reservation(bsl::size_t maximum)

@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntco_kqueue_t_cpp, "$Id$ $CSID$")
 #include <ntco_test.h>
 #include <ntci_timerfuture.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide tests for 'ntco::Kqueue'.
@@ -36,7 +36,7 @@ class KqueueTest
     // 'eventCount'.
     static void processReactorEvent(
         bsls::AtomicUint64*                    eventCount,
-        const BloombergLP::ntca::ReactorEvent& event);
+        const BNP_Paribas::ntca::ReactorEvent& event);
 
 #endif
 
@@ -57,7 +57,7 @@ class KqueueTest
 #if NTC_BUILD_WITH_KQUEUE
 void KqueueTest::processReactorEvent(
     bsls::AtomicUint64*                    eventCount,
-    const BloombergLP::ntca::ReactorEvent& event)
+    const BNP_Paribas::ntca::ReactorEvent& event)
 {
     NTCI_LOG_CONTEXT();
 
@@ -204,4 +204,4 @@ NTSCFG_TEST_FUNCTION(ntco::KqueueTest::verifyTimerLimit)
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

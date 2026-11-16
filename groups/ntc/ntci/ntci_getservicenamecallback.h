@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Resolver;
 }
@@ -48,5 +48,5 @@ typedef ntci::Callback<void(const bsl::shared_ptr<ntci::Resolver>& resolver,
 typedef GetServiceNameCallback::FunctionType GetServiceNameFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_message_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_message.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Message'.
@@ -180,4 +180,4 @@ bsl::size_t MessageTest::mutableBufferSize(bsl::size_t bufferIndex)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

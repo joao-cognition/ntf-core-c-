@@ -37,9 +37,9 @@ extern char** environ;
 #error Not implemented
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Controller'.
@@ -461,4 +461,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ControllerTest::verifyCase2)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

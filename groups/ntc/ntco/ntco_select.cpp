@@ -157,7 +157,7 @@ BSLS_IDENT_RCSID(ntco_select_cpp, "$Id$ $CSID$")
 #define NTCO_SELECT_LOG_SPURIOUS_WAKEUP()                                     \
     NTCI_LOG_TRACE("Waiter woken up spuriously")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// Provide an implementation of the 'ntci::Reactor' interface

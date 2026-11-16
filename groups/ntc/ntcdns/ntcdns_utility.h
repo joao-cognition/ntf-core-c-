@@ -35,7 +35,7 @@
 #include <bsl_utility.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 /// @internal @brief
@@ -871,5 +871,5 @@ bsl::size_t PortArray::capacity() const
 }
 
 }  // end namespace ntcdns
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

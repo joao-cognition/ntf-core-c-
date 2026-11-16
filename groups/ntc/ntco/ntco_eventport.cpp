@@ -136,7 +136,7 @@ BSLS_IDENT_RCSID(ntco_eventport_cpp, "$Id$ $CSID$")
                    handle,                                                    \
                    error.text().c_str())
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 class EventPort : public ntci::Reactor,

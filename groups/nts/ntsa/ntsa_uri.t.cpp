@@ -25,9 +25,9 @@ BSLS_IDENT_RCSID(ntsa_uri_t_cpp, "$Id$ $CSID$")
 #include <baljsn_decoder.h>
 #include <baljsn_encoder.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Uri'.
@@ -1477,4 +1477,4 @@ NTSCFG_TEST_FUNCTION(ntsa::UriTest::verifyDump)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

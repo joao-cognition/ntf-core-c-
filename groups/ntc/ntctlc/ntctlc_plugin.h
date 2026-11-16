@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctlc {
 
 /// Provide a facility to inject the 'zlib', 'zstd', and 'lz4' compression
@@ -82,8 +82,8 @@ class PluginGuard
 /// Initialize this plugin and register support for TLS in NTF using the
 /// 'openssl' third-party library.
 #define NTF_REGISTER_PLUGIN_GZIP_ZLIB_ZSTD_LZ4()                              \
-    BloombergLP::ntctlc::PluginGuard ntfPluginGzipZlibZstdLz4
+    BNP_Paribas::ntctlc::PluginGuard ntfPluginGzipZlibZstdLz4
 
 }  // close namespace ntctlc
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

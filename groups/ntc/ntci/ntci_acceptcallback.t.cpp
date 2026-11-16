@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntci_acceptcallback_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_acceptcallback.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // Provide tests for 'ntci::AcceptCallback'.
@@ -213,4 +213,4 @@ void AcceptCallbackTest::processSemaphore(
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

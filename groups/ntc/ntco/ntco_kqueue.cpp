@@ -173,7 +173,7 @@ BSLS_IDENT_RCSID(ntco_kqueue_cpp, "$Id$ $CSID$")
     NTCI_LOG_TRACE("Waiter catching up to generation %u",                     \
                    (unsigned int)(currentGeneration))
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 class Kqueue : public ntci::Reactor,

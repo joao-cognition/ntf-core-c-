@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntca_shutdownevent_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool ShutdownEvent::equals(const ShutdownEvent& other) const

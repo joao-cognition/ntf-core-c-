@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 
 #if NTC_BUILD_WITH_OPENSSL
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctls {
 
 /// Provide a facility to inject OpenSSL into NTC.
@@ -436,10 +436,10 @@ class PluginGuard
 /// Initialize this plugin and register support for TLS in NTF using the
 /// 'openssl' third-party library.
 #define NTF_REGISTER_PLUGIN_OPENSSL()                                         \
-    BloombergLP::ntctls::PluginGuard ntfPluginOpenSSL
+    BNP_Paribas::ntctls::PluginGuard ntfPluginOpenSSL
 
 }  // end namespace ntctls
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif
 
 #endif

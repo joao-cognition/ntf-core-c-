@@ -182,7 +182,7 @@ BSLS_IDENT_RCSID(ntco_epoll_cpp, "$Id$ $CSID$")
     NTCI_LOG_TRACE("Waiter catching up to generation %u",                     \
                    (unsigned int)(currentGeneration))
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// Provide an implementation of the 'ntci::Reactor' interface

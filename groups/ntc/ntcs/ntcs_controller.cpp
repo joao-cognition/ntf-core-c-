@@ -76,7 +76,7 @@ BSLS_IDENT_RCSID(ntcs_controller_cpp, "$Id$ $CSID$")
                    (int)(amount),                                             \
                    (int)(total))
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Provide a private implementation.

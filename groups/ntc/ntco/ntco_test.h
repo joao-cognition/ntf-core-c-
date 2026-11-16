@@ -47,7 +47,7 @@ BSLS_IDENT("$Id: $")
 // sort of emulation of the desired behavior.
 #define NTCO_TEST_SHUTDOWN_READ 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 /// Provide common tests for abstract classes.
@@ -3244,5 +3244,5 @@ void Test::verifyProactorFunctions(
 }
 
 }  // close namespace ntco
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

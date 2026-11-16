@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_platform.h>
 #include <bslscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsscm {
 
 /// Provide source control management and version information.
@@ -128,5 +128,5 @@ BSLS_LINKCOERCION_FORCE_SYMBOL_DEPENDENCY(const char*,
                                           Version::NTSSCM_S_VERSION)
 
 }  // close namespace ntsscm
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

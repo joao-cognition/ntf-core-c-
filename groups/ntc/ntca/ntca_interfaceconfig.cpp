@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntca_interfaceconfig_cpp, "$Id$ $CSID$")
 #include <ntccfg_limits.h>
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 InterfaceConfig::InterfaceConfig(bslma::Allocator* basicAllocator)

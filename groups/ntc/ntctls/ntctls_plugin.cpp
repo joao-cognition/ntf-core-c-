@@ -175,7 +175,7 @@ BSLS_IDENT_RCSID(ntctls_plugin_cpp, "$Id$ $CSID$")
 #pragma comment(lib, "crypt32")
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctls {
 
 /// Describes limits in the TLS protocol.
@@ -1380,9 +1380,9 @@ bsl::ostream& TlsRecordHeader::print(bsl::ostream& stream,
 }
 
 } // close namespace ntctls
-} // close namespace BloombergLP
+} // close namespace BNP_Paribas
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctls {
 
 class Environment;
@@ -9653,7 +9653,7 @@ ntsa::Error Session::process(LockGuard* lock)
         ntci::Encryption::HandshakeCallback handshakeCallback =
             d_handshakeCallback;
 
-        bsl::shared_ptr<BloombergLP::ntctls::Certificate> remoteCertificate =
+        bsl::shared_ptr<BNP_Paribas::ntctls::Certificate> remoteCertificate =
             d_remoteCertificate_sp;
 
         d_handshakeCallback = ntci::Encryption::HandshakeCallback();

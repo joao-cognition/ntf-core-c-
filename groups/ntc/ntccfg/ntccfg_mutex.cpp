@@ -86,7 +86,7 @@ int __ulock_wake(uint32_t operation, void *address, uint64_t value);
 
 #endif // NTCCFG_FUTEX_ENABLED
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 #if NTCCFG_FUTEX_ENABLED

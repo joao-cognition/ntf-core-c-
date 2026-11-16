@@ -1,5 +1,5 @@
 race:bsl::shared_ptr<*>::shared_ptr
 race:bsl::shared_ptr<*>::get
-race:BloombergLP::bdlma::ConcurrentPool::allocate
-race:BloombergLP::bdlcc::ObjectPool<*>::getObject
+race:BNP_Paribas::bdlma::ConcurrentPool::allocate
+race:BNP_Paribas::bdlcc::ObjectPool<*>::getObject
 deadlock:ntcd::Session::step

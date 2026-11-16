@@ -105,7 +105,7 @@ BSLS_IDENT_RCSID(ntctlc_plugin_cpp, "$Id$ $CSID$")
 
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntctlc {
 
 /// @internal @brief
@@ -4497,4 +4497,4 @@ PluginGuard::~PluginGuard()
 }
 
 }  // close namespace ntctlc
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

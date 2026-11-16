@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntsb_datagramsocket_t_cpp, "$Id$ $CSID$")
 #include <ntsu_socketoptionutil.h>
 #include <ntsu_socketutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 // Provide tests for 'ntsb::DatagramSocket'.
@@ -680,4 +680,4 @@ void DatagramSocketTest::receiveBlob(
 }
 
 }  // close namespace ntsb
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

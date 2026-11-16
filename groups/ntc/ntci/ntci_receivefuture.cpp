@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntci_receivefuture_cpp, "$Id$ $CSID$")
 #define NTCI_RECEIVEFUTURE_TIMEOUT -1
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 void ReceiveFuture::arrive(const bsl::shared_ptr<ntci::Receiver>& receiver,

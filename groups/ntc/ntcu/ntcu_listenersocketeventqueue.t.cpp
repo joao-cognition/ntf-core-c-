@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcu_listenersocketeventqueue_t_cpp, "$Id$ $CSID$")
 
 #include <ntcu_listenersocketeventqueue.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 // Provide tests for 'ntcu::ListenerSocketEventQueue'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntcu::ListenerSocketEventQueueTest::verify)
 }
 
 }  // close namespace ntcu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

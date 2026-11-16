@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntcd_encryption_t_cpp, "$Id$ $CSID$")
 #include <ntci_log.h>
 #include <ntcs_datapool.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Provide tests for 'ntcd::Encryption'.
@@ -798,7 +798,7 @@ NTSCFG_TEST_FUNCTION(ntcd::EncryptionTest::verifyCase2)
     ntsa::DistinguishedName identity1;
     identity1[ntsa::DistinguishedName::e_COMMON_NAME].addAttribute("John Doe");
     identity1[ntsa::DistinguishedName::e_ORGANIZATION_NAME].addAttribute(
-        "Bloomberg");
+        "BNP Paribas");
 
     bsl::shared_ptr<ntcd::EncryptionCertificate> certificate1;
     certificate1.createInplace(NTSCFG_TEST_ALLOCATOR, NTSCFG_TEST_ALLOCATOR);
@@ -883,4 +883,4 @@ NTSCFG_TEST_FUNCTION(ntcd::EncryptionTest::verifyCase5)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -28,7 +28,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_error.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to bind to a local endpoint.
@@ -94,5 +94,5 @@ class Bindable : public ntci::BindCallbackFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_timestamp_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_timestamp.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Timestamp'.
@@ -123,4 +123,4 @@ NTSCFG_TEST_FUNCTION(ntsa::TimestampTest::verifyCase4)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

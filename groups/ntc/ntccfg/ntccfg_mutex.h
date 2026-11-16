@@ -42,7 +42,7 @@ BSLS_IDENT("$Id: $")
 #define NTCCFG_FUTEX_ENABLED 0
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 #if NTCCFG_FUTEX_ENABLED

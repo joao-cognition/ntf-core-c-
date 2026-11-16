@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcu_datagramsocketutil_cpp, "$Id$ $CSID$")
 
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcu {
 
 ntsa::Error DatagramSocketUtil::getTransport(ntsa::Transport::Value* result,

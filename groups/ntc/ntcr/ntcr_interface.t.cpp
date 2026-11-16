@@ -23,9 +23,9 @@ BSLS_IDENT_RCSID(ntcr_interface_t_cpp, "$Id$ $CSID$")
 #include <ntcd_simulation.h>
 #include <ntcs_datapool.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 // Uncomment to test a particular style of socket-to-thread load balancing,
@@ -374,4 +374,4 @@ NTSCFG_TEST_FUNCTION(ntcr::InterfaceTest::verifyCase2)
 }
 
 }  // close namespace ntcr
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

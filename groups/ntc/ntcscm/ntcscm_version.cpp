@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcscm_version_cpp, "$Id$ $CSID$")
 
 #include <bslscm_patchversion.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcscm {
 
 #define STRINGIFY2(a) #a
@@ -40,4 +40,4 @@ const char* Version::s_timestamp         = "";
 const char* Version::s_sourceControlInfo = "";
 
 }  // close namespace ntcscm
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

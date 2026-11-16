@@ -57,7 +57,7 @@ BSLS_IDENT("$Id: $")
 
 #if NTC_BUILD_WITH_COROUTINES
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface for concurrent operations.
@@ -1036,7 +1036,7 @@ class Concurrent::Close::Awaiter
 };
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif
 #endif

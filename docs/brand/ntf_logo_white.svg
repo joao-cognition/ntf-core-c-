@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <rect x="4" y="4" width="172" height="172" rx="34" fill="#FFFFFF"/>
+  <path d="M30 128 Q90 84 150 52" stroke="#00915A" stroke-opacity="0.35" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="90.0" y="110.88" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="58" fill="#00915A">NTF</text>
+</svg>

@@ -51,7 +51,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide a resolver of domain names, service names, IP addresses, and ports.

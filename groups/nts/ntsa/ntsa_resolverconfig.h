@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <bdlb_nullablevalue.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Describe the configuration of a blocking resolver.

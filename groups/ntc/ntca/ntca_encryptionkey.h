@@ -30,7 +30,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe encryption key algorithm parameters for the RSA algorithm.

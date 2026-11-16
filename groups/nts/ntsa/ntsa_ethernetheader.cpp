@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntsa_ethernetheader_cpp, "$Id$ $CSID$")
 #include <bsl_cstring.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bool EthernetHeader::equals(const EthernetHeader& other) const

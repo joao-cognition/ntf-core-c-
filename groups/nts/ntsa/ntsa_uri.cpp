@@ -28,7 +28,7 @@ BSLS_IDENT_RCSID(ntsa_uri_cpp, "$Id$ $CSID$")
 #include <bsl_sstream.h>
 #include <bsl_streambuf.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 /// Provide functions to implement URIs.

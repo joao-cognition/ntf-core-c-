@@ -33,7 +33,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsi {
 
 /// Provide a resolver of names to IP addresses and TCP/UDP ports, and the

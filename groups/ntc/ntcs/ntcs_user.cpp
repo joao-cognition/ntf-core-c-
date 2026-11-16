@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntcs_user_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 User::User(bslma::Allocator* basicAllocator)

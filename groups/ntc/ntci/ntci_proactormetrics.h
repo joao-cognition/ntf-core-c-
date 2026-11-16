@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsls_timeinterval.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to record the runtime behavior of proactors.

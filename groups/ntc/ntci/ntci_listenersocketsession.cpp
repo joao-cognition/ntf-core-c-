@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntci_listenersocketsession_cpp, "$Id$ $CSID$")
 
 #include <ntci_log.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // CREATOR

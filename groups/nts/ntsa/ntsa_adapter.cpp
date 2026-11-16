@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_adapter_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 Adapter::Adapter(bslma::Allocator* basicAllocator)

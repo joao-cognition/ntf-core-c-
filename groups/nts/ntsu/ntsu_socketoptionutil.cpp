@@ -87,7 +87,7 @@ BSLS_IDENT_RCSID(ntsu_socketoptionutil_cpp, "$Id$ $CSID$")
 #pragma comment(lib, "ws2_32")
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 /// Provide a private implementation.

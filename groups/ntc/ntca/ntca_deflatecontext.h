@@ -27,7 +27,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Provide a description of the result of a deflate operation.
@@ -295,5 +295,5 @@ bool operator<(const DeflateContext& lhs, const DeflateContext& rhs)
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

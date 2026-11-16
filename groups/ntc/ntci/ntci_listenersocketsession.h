@@ -31,7 +31,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_shutdowntype.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class ListenerSocket;
 }

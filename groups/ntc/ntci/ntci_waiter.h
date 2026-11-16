@@ -21,7 +21,7 @@ BSLS_IDENT("$Id: $")
 
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Define a type alias for a handle to a thread authorized to call 'wait'.
@@ -30,5 +30,5 @@ namespace ntci {
 typedef void* Waiter;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

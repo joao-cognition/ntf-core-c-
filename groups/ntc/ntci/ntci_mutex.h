@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// @internal @brief

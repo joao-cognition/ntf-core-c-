@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntccfg_platform.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Provide a mechanism to manage the open state of a socket.
@@ -184,5 +184,5 @@ bool OpenState::isNotEither(Value value1, Value value2) const
 }
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -21,7 +21,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_resolver.h>
 #include <ntscfg_mock.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 #if NTSCFG_MOCK_ENABLED

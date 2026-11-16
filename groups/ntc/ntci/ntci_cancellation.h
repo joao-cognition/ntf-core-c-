@@ -21,7 +21,7 @@
 #include <ntcscm_version.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to cancel the invocation of an asynchronous function.
@@ -56,5 +56,5 @@ bsl::shared_ptr<ntci::Cancellation>* Cancellation::none()
 }
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

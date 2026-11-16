@@ -189,7 +189,7 @@ struct sockaddr_un_win32 {
 // 'WSARecv'.
 #define NTCO_IOCP_WSABUF_MAX 64
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntco {
 
 // Provide a proactor context for an implementation of the 'ntci::Proactor'

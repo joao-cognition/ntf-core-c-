@@ -42,7 +42,7 @@
 // fixed-capacity arrays.
 // #define NTCDNS_DATABASE_FIXED_CAPACITY_ARRAYS 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 /// @internal @brief

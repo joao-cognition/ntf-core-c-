@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntsa_ipv6scopeid_cpp, "$Id$ $CSID$")
 #include <bsl_cstdlib.h>
 #include <bsl_cstring.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bsl::size_t Ipv6ScopeIdUtil::format(char*             destination,

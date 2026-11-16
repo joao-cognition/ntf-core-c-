@@ -38,7 +38,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_functional.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsi {
 
 /// Provide an abstract sender/receiver of data.
@@ -220,5 +220,5 @@ class Channel : public ntsi::Descriptor
 };
 
 }  // end namespace ntsi
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntccfg_format_t_cpp, "$Id$ $CSID$")
 #include <bsl_cstdlib.h>
 #include <bsl_cstring.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 // Provide tests for 'ntccfg::Format'.
@@ -116,4 +116,4 @@ NTSCFG_TEST_FUNCTION(ntccfg::FormatTest::verifyDouble)
 }
 
 }  // close namespace ntccfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

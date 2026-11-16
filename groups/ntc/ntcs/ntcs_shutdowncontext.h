@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bslh_hash.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief

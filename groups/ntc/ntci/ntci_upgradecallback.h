@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_callback.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 class Upgradable;
 }
@@ -47,5 +47,5 @@ typedef ntci::Callback<void(
 typedef UpgradeCallback::FunctionType UpgradeFunction;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

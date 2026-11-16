@@ -29,9 +29,9 @@ BSLS_IDENT_RCSID(ntcd_reactor_t_cpp, "$Id$ $CSID$")
 #include <ntsi_listenersocket.h>
 #include <ntsi_streamsocket.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 // Provide tests for 'ntcd::Reactor'.
@@ -1243,4 +1243,4 @@ NTSCFG_TEST_FUNCTION(ntcd::ReactorTest::verifyCase4)
 }
 
 }  // close namespace ntcd
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

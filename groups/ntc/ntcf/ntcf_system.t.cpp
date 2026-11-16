@@ -48,7 +48,7 @@ BSLS_IDENT_RCSID(ntcf_system_t_cpp, "$Id$ $CSID$")
 #include <ntsu_adapterutil.h>
 #include <bdlt_iso8601util.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 // Uncomment to test a particular style of socket-to-thread load balancing,
 // instead of both static and dynamic load balancing.
@@ -82,7 +82,7 @@ using namespace BloombergLP;
 // Define to 1 to include tests using the installed encryption driver.
 #define NTCF_SYSTEM_TEST_BUILD_WITH_TLS 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 // Provide tests for 'ntcf::System'.
@@ -6590,7 +6590,7 @@ void SystemTest::concernDataExchange(
 
                 ntsa::DistinguishedName authorityIdentity;
                 authorityIdentity["CN"] = "Certificate Authority";
-                authorityIdentity["O"]  = "Bloomberg LP";
+                authorityIdentity["O"]  = "BNP Paribas";
 
                 NTCI_LOG_DEBUG("Generating authority key");
                 error = scheduler->generateKey(
@@ -6614,7 +6614,7 @@ void SystemTest::concernDataExchange(
 
                 ntsa::DistinguishedName clientIdentity;
                 clientIdentity["CN"] = "TransferClient User";
-                clientIdentity["O"]  = "Bloomberg LP";
+                clientIdentity["O"]  = "BNP Paribas";
 
                 NTCI_LOG_DEBUG("Generating client key");
                 error =
@@ -6636,7 +6636,7 @@ void SystemTest::concernDataExchange(
 
                 ntsa::DistinguishedName serverIdentity;
                 serverIdentity["CN"] = "TransferServer User";
-                serverIdentity["O"]  = "Bloomberg LP";
+                serverIdentity["O"]  = "BNP Paribas";
 
                 NTCI_LOG_DEBUG("Generating server key");
                 error =
@@ -17916,7 +17916,7 @@ NTSCFG_TEST_FUNCTION(ntcf::ConcurrentTest::verifyApplication)
 }
 
 }  // close namespace ntcf
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 // TODO: Merge the remaining tests and test infrastructure into the
 // test driver framework.

@@ -23,7 +23,7 @@ BSLS_IDENT_RCSID(ntca_encryptionkeyoptions_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 EncryptionKeyOptions::EncryptionKeyOptions(bslma::Allocator* basicAllocator)

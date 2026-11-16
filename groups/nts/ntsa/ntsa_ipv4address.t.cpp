@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_ipv4address_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_ipv4address.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Ipv4Address'.
@@ -417,4 +417,4 @@ NTSCFG_TEST_FUNCTION(ntsa::Ipv4AddressTest::verifyLoopback)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

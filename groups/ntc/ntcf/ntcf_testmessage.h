@@ -157,7 +157,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_c_errno.h>
 #include <bsl_c_signal.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 /// Provide a test message.
@@ -1573,5 +1573,5 @@ ntcf::TestAcknowledgmentCallback TestAcknowledgmentCallbackFactory::
 }
 
 }  // end namespace ntcf
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

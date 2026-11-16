@@ -27,7 +27,7 @@
 #endif
 // clang-format on
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 #if defined(BSLS_PLATFORM_OS_LINUX)

@@ -36,7 +36,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_string.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntscfg {
 
 #if defined(BDE_BUILD_TARGET_CPP20)
@@ -340,7 +340,7 @@ struct Mock {
         : d_expResult()
         {
         }
-        BloombergLP::bdlb::NullableValue<RESULT> d_expResult;
+        BNP_Paribas::bdlb::NullableValue<RESULT> d_expResult;
         RESULT                                   get()
         {
             BSLS_ASSERT_OPT(d_expResult.has_value());
@@ -376,7 +376,7 @@ struct Mock {
         }
     };
 
-    typedef BloombergLP::bslmf::Nil NoArgs;
+    typedef BNP_Paribas::bslmf::Nil NoArgs;
 
     template <class INVOCATION_DATA, class SELF, class RESULT>
     struct InvocationBaseWillReturn {
@@ -495,7 +495,7 @@ struct Mock {
     struct InvocationArgsImpl<TL, bsl::integral_constant<int, ARG_INDEX> >
     : public InvocationArgsImpl<TL,
                                 bsl::integral_constant<int, ARG_INDEX - 1> > {
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<ARG_INDEX + 1,
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<ARG_INDEX + 1,
                                                             TL>::Type ArgType;
         typedef typename PassTraits<ArgType>::PassType ArgPassType;
 
@@ -535,13 +535,13 @@ struct Mock {
 
     template <class ARG_LIST>
     struct ProcessArgs {
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<1, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<1, ARG_LIST>::
             TypeOrDefault ARG0;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<2, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<2, ARG_LIST>::
             TypeOrDefault ARG1;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<3, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<3, ARG_LIST>::
             TypeOrDefault ARG2;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<4, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<4, ARG_LIST>::
             TypeOrDefault ARG3;
 
         typedef typename PassTraits<ARG0>::PassType ARG0Pass;
@@ -602,7 +602,7 @@ struct Mock {
         template <int ARG_INDEX, class ARG_EXTRACTOR>
         SELF& saveArg(const ARG_EXTRACTOR& extractor)
         {
-            typedef typename BloombergLP::bslmf::TypeListTypeOf<ARG_INDEX + 1,
+            typedef typename BNP_Paribas::bslmf::TypeListTypeOf<ARG_INDEX + 1,
                                                                 ARG_LIST>::Type
                              ArgType;
             INVOCATION_DATA& data = this->getInvocationDataBack();
@@ -620,7 +620,7 @@ struct Mock {
         template <int ARG_INDEX, class ARG_SETTER>
         SELF& setArg(const ARG_SETTER& setter)
         {
-            typedef typename BloombergLP::bslmf::TypeListTypeOf<ARG_INDEX + 1,
+            typedef typename BNP_Paribas::bslmf::TypeListTypeOf<ARG_INDEX + 1,
                                                                 ARG_LIST>::Type
                              ArgType;
             INVOCATION_DATA& data = this->getInvocationDataBack();
@@ -681,13 +681,13 @@ struct Mock {
         typedef Invocation<METHOD_INFO, RESULT, ARG_LIST> InvocationType;
         typedef InvocationImplBase<InvocationType>        BaseType;
         typedef typename InvocationType::InvocationDataT  InvocationDataT;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<1, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<1, ARG_LIST>::
             TypeOrDefault ARG0;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<2, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<2, ARG_LIST>::
             TypeOrDefault ARG1;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<3, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<3, ARG_LIST>::
             TypeOrDefault ARG2;
-        typedef typename BloombergLP::bslmf::TypeListTypeOf<4, ARG_LIST>::
+        typedef typename BNP_Paribas::bslmf::TypeListTypeOf<4, ARG_LIST>::
             TypeOrDefault ARG3;
 
         typedef typename PassTraits<ARG0>::PassType ARG0Pass;
@@ -788,7 +788,7 @@ struct Mock {
         template <int ARG_INDEX, class ARG_MATCHER>
         void saveMatcher(InvocationDataT& data, const ARG_MATCHER& matcher)
         {
-            typedef typename BloombergLP::bslmf::TypeListTypeOf<ARG_INDEX + 1,
+            typedef typename BNP_Paribas::bslmf::TypeListTypeOf<ARG_INDEX + 1,
                                                                 ARG_LIST>::Type
                 ARG;
             if (!matcher.ignore()) {
@@ -977,29 +977,29 @@ struct Mock::InvocationResult<void> {
     NTF_METHOD_INFO(METHOD_NAME)                                              \
                                                                               \
   public:                                                                     \
-    BloombergLP::ntscfg::Mock::Invocation<NTF_CAT2(MethodInfo, __LINE__),     \
+    BNP_Paribas::ntscfg::Mock::Invocation<NTF_CAT2(MethodInfo, __LINE__),     \
                                           RESULT,                             \
-                                          BloombergLP::ntscfg::Mock::NoArgs>& \
+                                          BNP_Paribas::ntscfg::Mock::NoArgs>& \
         expect_##METHOD_NAME()                                                \
     {                                                                         \
         return d_invocation_##METHOD_NAME.expect();                           \
     }                                                                         \
                                                                               \
   private:                                                                    \
-    mutable BloombergLP::ntscfg::Mock::Invocation<                            \
+    mutable BNP_Paribas::ntscfg::Mock::Invocation<                            \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::ntscfg::Mock::NoArgs>                                    \
+        BNP_Paribas::ntscfg::Mock::NoArgs>                                    \
         d_invocation_##METHOD_NAME;
 
 #define NTF_MOCK_METHOD_1_IMP(RESULT, METHOD_NAME, ARG0)                      \
     NTF_METHOD_INFO(METHOD_NAME)                                              \
   public:                                                                     \
     template <class MATCHER>                                                  \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0> >&                                 \
+        BNP_Paribas::bslmf::TypeList<ARG0> >&                                 \
         expect_##METHOD_NAME(const MATCHER& arg0,                             \
                              bsl::type_identity<ARG0> =                       \
                                  bsl::type_identity<ARG0>())                  \
@@ -1010,20 +1010,20 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
   private:                                                                    \
-    mutable BloombergLP::ntscfg::Mock::Invocation<                            \
+    mutable BNP_Paribas::ntscfg::Mock::Invocation<                            \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0> >                                  \
+        BNP_Paribas::bslmf::TypeList<ARG0> >                                  \
         NTF_CAT2(d_invocation_##METHOD_NAME, __LINE__);
 
 #define NTF_MOCK_METHOD_2_IMP(RESULT, METHOD_NAME, ARG0, ARG1)                \
     NTF_METHOD_INFO(METHOD_NAME)                                              \
   public:                                                                     \
     template <class MATCHER0, class MATCHER1>                                 \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1> >&                           \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1> >&                           \
         expect_##METHOD_NAME(const MATCHER0& arg0, const MATCHER1& arg1)      \
     {                                                                         \
         return NTF_CAT2(d_invocation_##METHOD_NAME, __LINE__)                 \
@@ -1032,10 +1032,10 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
     template <class MATCHER0, class MATCHER1>                                 \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1> >&                           \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1> >&                           \
         expect_##METHOD_NAME(const MATCHER0& arg0,                            \
                              bsl::type_identity<ARG0>,                        \
                              const MATCHER1& arg1,                            \
@@ -1048,20 +1048,20 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
   private:                                                                    \
-    mutable BloombergLP::ntscfg::Mock::Invocation<                            \
+    mutable BNP_Paribas::ntscfg::Mock::Invocation<                            \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1> >                            \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1> >                            \
         NTF_CAT2(d_invocation_##METHOD_NAME, __LINE__);
 
 #define NTF_MOCK_METHOD_3_IMP(RESULT, METHOD_NAME, ARG0, ARG1, ARG2)          \
     NTF_METHOD_INFO(METHOD_NAME)                                              \
   public:                                                                     \
     template <class MATCHER0, class MATCHER1, class MATCHER2>                 \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2> >&                     \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2> >&                     \
         expect_##METHOD_NAME(const MATCHER0& arg0,                            \
                              const MATCHER1& arg1,                            \
                              const MATCHER2& arg2)                            \
@@ -1072,10 +1072,10 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
     template <class MATCHER0, class MATCHER1, class MATCHER2>                 \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2> >&                     \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2> >&                     \
         expect_##METHOD_NAME(const MATCHER0& arg0,                            \
                              bsl::type_identity<ARG0>,                        \
                              const MATCHER1& arg1,                            \
@@ -1089,20 +1089,20 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
   private:                                                                    \
-    mutable BloombergLP::ntscfg::Mock::Invocation<                            \
+    mutable BNP_Paribas::ntscfg::Mock::Invocation<                            \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2> >                      \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2> >                      \
         NTF_CAT2(d_invocation_##METHOD_NAME, __LINE__);
 
 #define NTF_MOCK_METHOD_4_IMP(RESULT, METHOD_NAME, ARG0, ARG1, ARG2, ARG3)    \
     NTF_METHOD_INFO(METHOD_NAME)                                              \
   public:                                                                     \
     template <class MATCHER0, class MATCHER1, class MATCHER2, class MATCHER3> \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >&               \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >&               \
         expect_##METHOD_NAME(const MATCHER0& arg0,                            \
                              const MATCHER1& arg1,                            \
                              const MATCHER2& arg2,                            \
@@ -1114,10 +1114,10 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
     template <class MATCHER0, class MATCHER1, class MATCHER2, class MATCHER3> \
-    BloombergLP::ntscfg::Mock::Invocation<                                    \
+    BNP_Paribas::ntscfg::Mock::Invocation<                                    \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >&               \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >&               \
         expect_##METHOD_NAME(const MATCHER0& arg0,                            \
                              bsl::type_identity<ARG0>,                        \
                              const MATCHER1& arg1,                            \
@@ -1133,10 +1133,10 @@ struct Mock::InvocationResult<void> {
     }                                                                         \
                                                                               \
   private:                                                                    \
-    mutable BloombergLP::ntscfg::Mock::Invocation<                            \
+    mutable BNP_Paribas::ntscfg::Mock::Invocation<                            \
         NTF_CAT2(MethodInfo, __LINE__),                                       \
         RESULT,                                                               \
-        BloombergLP::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >                \
+        BNP_Paribas::bslmf::TypeList<ARG0, ARG1, ARG2, ARG3> >                \
         NTF_CAT2(d_invocation_##METHOD_NAME, __LINE__);
 
 #define NTF_MOCK_CLASS(MOCK_NAME, CLASS_TO_MOCK)                              \
@@ -1258,16 +1258,16 @@ struct Mock::InvocationResult<void> {
     NTF_VA_SELECT(NTF_MOCK_METHOD_CONST, __VA_ARGS__)
 
 #define NTF_EQ_SPEC(ARG, SPEC)                                                \
-    BloombergLP::ntscfg::Mock::createEqMatcher<                               \
-        BloombergLP::ntscfg::Mock::DirectComparator>(ARG),                    \
+    BNP_Paribas::ntscfg::Mock::createEqMatcher<                               \
+        BNP_Paribas::ntscfg::Mock::DirectComparator>(ARG),                    \
         bsl::type_identity<SPEC>()
 
-#define IGNORE_ARG BloombergLP::ntscfg::Mock::IgnoreArg()
+#define IGNORE_ARG BNP_Paribas::ntscfg::Mock::IgnoreArg()
 #define IGNORE_ARG_S(SPEC)                                                    \
-    BloombergLP::ntscfg::Mock::IgnoreArg(), bsl::type_identity<SPEC>()
+    BNP_Paribas::ntscfg::Mock::IgnoreArg(), bsl::type_identity<SPEC>()
 
 #define NTF_EQ_DEREF_SPEC(ARG, SPEC)                                          \
-    BloombergLP::ntscfg::Mock::createEqMatcher<Mock::DerefComparator>(ARG),   \
+    BNP_Paribas::ntscfg::Mock::createEqMatcher<Mock::DerefComparator>(ARG),   \
         bsl::type_identity<SPEC>()
 
 #define NTF_EXPECT(MOCK_OBJECT, METHOD, ...)                                  \
@@ -1286,6 +1286,6 @@ struct Mock::InvocationResult<void> {
 #endif  // NTSCFG_MOCK_ENABLED
 
 }  // close namespace ntscfg
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 
 #endif

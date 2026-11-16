@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntci_encryptionkeystorage_cpp, "$Id$ $CSID$")
 #include <bsl_fstream.h>
 #include <bsl_sstream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 EncryptionKeyStorage::~EncryptionKeyStorage()

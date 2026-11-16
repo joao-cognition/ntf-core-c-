@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <bdlbb_blob.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcf {
 
 /// Provide a factory of objects implemented by the operating system.

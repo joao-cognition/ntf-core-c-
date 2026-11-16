@@ -45,7 +45,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_functional.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 template <class KEY, class DATA, class RANDGEN>

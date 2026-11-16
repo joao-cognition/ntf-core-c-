@@ -18,7 +18,7 @@
 #include <bsls_ident.h>
 BSLS_IDENT_RCSID(ntsa_id_cpp, "$Id$ $CSID$")
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bsls::AtomicInt Id::s_next;

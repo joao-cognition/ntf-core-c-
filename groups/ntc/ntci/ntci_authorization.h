@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <ntsa_error.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to authorize the invocation of an callback.

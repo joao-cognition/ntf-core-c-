@@ -28,7 +28,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsscm_version.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsi {
 
 /// Provide a mechanism to poll sockets for events.
@@ -163,5 +163,5 @@ class Reactor
 };
 
 }  // end namespace ntsi
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -93,7 +93,7 @@
 #include <bsls_types.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 
 namespace ntcf {
 class TestAcknowledgment;
@@ -12069,5 +12069,5 @@ bsl::ostream& operator<<(bsl::ostream& stream, TestMessageFlag::Value value);
 
 BDLAT_DECL_ENUMERATION_TRAITS(ntcf::TestMessageFlag)
 
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas
 #endif

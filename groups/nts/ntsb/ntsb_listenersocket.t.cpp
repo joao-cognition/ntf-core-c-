@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsb_listenersocket_t_cpp, "$Id$ $CSID$")
 
 #include <ntsb_listenersocket.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsb {
 
 // Provide tests for 'ntsb::ListenerSocket'.
@@ -38,4 +38,4 @@ NTSCFG_TEST_FUNCTION(ntsb::ListenerSocketTest::verify)
 }
 
 }  // close namespace ntsb
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

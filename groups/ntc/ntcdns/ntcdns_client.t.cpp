@@ -25,9 +25,9 @@ BSLS_IDENT_RCSID(ntcdns_client_t_cpp, "$Id$ $CSID$")
 #include <ntcdns_utility.h>
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 // Provide tests for 'ntcdns::Client'.
@@ -145,4 +145,4 @@ NTSCFG_TEST_FUNCTION(ntcdns::ClientTest::verify)
 }
 
 }  // close namespace ntcdns
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

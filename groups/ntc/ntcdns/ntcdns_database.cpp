@@ -34,7 +34,7 @@
 // while debugging.
 // #define NTCDNS_DATABASE_DEBUG_COUT 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 /// Provide a scanner of contiguous character data.

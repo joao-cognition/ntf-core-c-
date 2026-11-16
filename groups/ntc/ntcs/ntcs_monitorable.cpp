@@ -43,7 +43,7 @@ BSLS_IDENT_RCSID(ntcs_monitorable_cpp, "$Id$ $CSID$")
 #define NTCM_LOGPUBLISHER_FULL 0
 #define NTCM_LOGPUBLISHER_SORTED 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 MonitorableLogRecord::MonitorableLogRecord(bslma::Allocator* basicAllocator)
@@ -1196,4 +1196,4 @@ void MonitorableUtil::exit()
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

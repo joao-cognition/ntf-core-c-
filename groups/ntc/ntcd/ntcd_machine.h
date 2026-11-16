@@ -58,7 +58,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_unordered_set.h>
 #include <bsl_vector.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 class Packet;

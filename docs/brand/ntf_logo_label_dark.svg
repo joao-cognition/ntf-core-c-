@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 180" width="1250" height="180">
+  <g transform="translate(0,0)">
+    <rect x="4" y="4" width="172" height="172" rx="34" fill="#00915A"/>
+    <path d="M30 128 Q90 84 150 52" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <text x="90" y="110.88" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="58" fill="#FFFFFF">NTF</text>
+  </g>
+  <text x="215" y="58" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="8" fill="#6BBE8C">BNP PARIBAS</text>
+  <text x="212" y="128" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="78" fill="#FFFFFF">NTF Core</text>
+  <text x="215" y="166" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#FFFFFF" fill-opacity="0.7">Network Transport Framework: async sockets, reactors, proactors</text>
+</svg>

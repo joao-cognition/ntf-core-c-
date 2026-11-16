@@ -32,7 +32,7 @@ BSLS_IDENT("$Id: $")
 #include <balxml_decoderoptions.h>
 #include <balxml_encoderoptions.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Provide a description of the result of a deflate operation.

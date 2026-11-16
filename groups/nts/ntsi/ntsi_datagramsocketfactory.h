@@ -21,7 +21,7 @@ BSLS_IDENT("$Id: $")
 
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsi {
 class DatagramSocket;
 }

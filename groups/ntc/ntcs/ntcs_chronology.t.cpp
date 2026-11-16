@@ -27,9 +27,9 @@ BSLS_IDENT_RCSID(ntcs_chronology_t_cpp, "$Id$ $CSID$")
 #include <ntcs_driver.h>
 #include <ntcs_strand.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Chronology'.
@@ -3400,4 +3400,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ChronologyTest::verifyBackoff)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcs_processstatistics_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 bsl::ostream& ProcessStatistics::print(bsl::ostream& stream,

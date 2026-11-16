@@ -29,7 +29,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_objectbuffer.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe an event detected during the asynchronous operation of a listener

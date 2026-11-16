@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_timeinterval.h>
 #include <bsls_types.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide a mechanism to limit peak and sustained consumption rates.
@@ -417,5 +417,5 @@ class RateLimiter
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

@@ -29,9 +29,9 @@ BSLS_IDENT_RCSID(ntsa_handle_t_cpp, "$Id$ $CSID$")
 #include <winsock2.h>
 #endif
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Handle'.
@@ -52,4 +52,4 @@ NTSCFG_TEST_FUNCTION(ntsa::HandleTest::verify)
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

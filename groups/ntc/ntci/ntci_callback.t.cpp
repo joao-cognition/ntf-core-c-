@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntci_callback_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_callback.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 // Provide tests for 'ntci::Callback'.
@@ -1630,4 +1630,4 @@ NTSCFG_TEST_FUNCTION(ntci::CallbackTest::verifyCase6)
 }
 
 }  // close namespace ntci
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

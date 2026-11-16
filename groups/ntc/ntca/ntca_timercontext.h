@@ -26,7 +26,7 @@ BSLS_IDENT("$Id: $")
 #include <bsls_timeinterval.h>
 #include <bsl_iosfwd.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 /// Describe the state of a timer at the time of an event.

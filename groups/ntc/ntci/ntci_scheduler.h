@@ -23,7 +23,7 @@ BSLS_IDENT("$Id: $")
 #include <ntci_interface.h>
 #include <ntcscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to create asynchronous, multiplexed sockets and timers
@@ -39,5 +39,5 @@ typedef Interface Scheduler;
 typedef InterfaceStopGuard SchedulerStopGuard;
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

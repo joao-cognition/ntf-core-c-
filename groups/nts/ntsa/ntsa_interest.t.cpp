@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsa_interest_t_cpp, "$Id$ $CSID$")
 
 #include <ntsa_interest.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 // Provide tests for 'ntsa::Interest'.
@@ -761,4 +761,4 @@ void InterestTest::ensureWantBoth(const ntsa::InterestSet& interestSet,
 }
 
 }  // close namespace ntsa
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

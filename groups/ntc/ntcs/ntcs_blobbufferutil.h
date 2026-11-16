@@ -25,7 +25,7 @@ BSLS_IDENT("$Id: $")
 #include <ntsa_error.h>
 #include <bdlbb_blob.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// @internal @brief
@@ -67,5 +67,5 @@ struct BlobBufferUtil {
 };
 
 }  // end namespace ntcs
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

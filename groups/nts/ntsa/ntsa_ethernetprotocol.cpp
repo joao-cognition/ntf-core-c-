@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_ethernetprotocol_cpp, "$Id$ $CSID$")
 
 #include <bdlb_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 int EthernetProtocol::fromInt(EthernetProtocol::Value* result, int number)

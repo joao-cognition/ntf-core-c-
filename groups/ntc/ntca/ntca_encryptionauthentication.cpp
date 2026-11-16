@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntca_encryptionauthentication_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 int EncryptionAuthentication::fromInt(EncryptionAuthentication::Value* result,

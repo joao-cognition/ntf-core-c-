@@ -64,7 +64,7 @@ BSLS_IDENT_RCSID(ntsa_localname_cpp, "$Id$ $CSID$")
 #include <afunix.h>
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 LocalName::LocalName()

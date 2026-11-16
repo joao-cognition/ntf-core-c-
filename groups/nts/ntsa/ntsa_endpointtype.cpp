@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_endpointtype_cpp, "$Id$ $CSID$")
 
 #include <bdlb_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 int EndpointType::fromInt(EndpointType::Value* result, int number)

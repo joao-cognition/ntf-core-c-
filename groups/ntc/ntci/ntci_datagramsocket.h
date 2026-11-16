@@ -60,7 +60,7 @@ BSLS_IDENT("$Id: $")
 #include <bslmt_threadutil.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 
 namespace ntci {
 class DatagramSocketManager;

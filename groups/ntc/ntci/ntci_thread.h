@@ -33,7 +33,7 @@ BSLS_IDENT("$Id: $")
 #include <bsl_memory.h>
 #include <bsl_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to an I/O thread automatically driving a reactor or
@@ -79,5 +79,5 @@ class Thread : public ntci::Executor,
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

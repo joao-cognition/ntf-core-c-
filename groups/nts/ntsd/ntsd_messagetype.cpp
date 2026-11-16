@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsd_protocol_cpp, "$Id$ $CSID$")
 
 #include <bdlb_string.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsd {
 
 int MessageType::fromInt(MessageType::Value* result, int number)

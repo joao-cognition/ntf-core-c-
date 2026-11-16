@@ -24,9 +24,9 @@ BSLS_IDENT_RCSID(ntcr_thread_t_cpp, "$Id$ $CSID$")
 #include <ntcd_simulation.h>
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcr {
 
 // Provide tests for 'ntcr::Thread'.
@@ -193,4 +193,4 @@ NTSCFG_TEST_FUNCTION(ntcr::ThreadTest::verifyCase2)
 }
 
 }  // close namespace ntcr
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntcs_authorization_t_cpp, "$Id$ $CSID$")
 
 #include <ntcs_authorization.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::Authorization'.
@@ -306,4 +306,4 @@ NTSCFG_TEST_FUNCTION(ntcs::AuthorizationTest::verifyCase5)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

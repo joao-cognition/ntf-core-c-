@@ -24,7 +24,7 @@ BSLS_IDENT_RCSID(ntcd_datagramsocket_cpp, "$Id$ $CSID$")
 #include <bslma_default.h>
 #include <bsls_assert.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcd {
 
 DatagramSocket::DatagramSocket(bslma::Allocator* basicAllocator)

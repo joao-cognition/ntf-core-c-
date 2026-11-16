@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntsa_socketinfo_cpp, "$Id$ $CSID$")
 
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsa {
 
 bool SocketInfo::equals(const SocketInfo& other) const

@@ -21,7 +21,7 @@ BSLS_IDENT_RCSID(ntca_connectoptions_cpp, "$Id$ $CSID$")
 #include <bdlb_string.h>
 #include <bslim_printer.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 bool ConnectOptions::equals(const ConnectOptions& other) const

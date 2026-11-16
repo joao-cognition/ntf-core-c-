@@ -22,7 +22,7 @@ project(
     DESCRIPTION
         "NTF Core"
     HOMEPAGE_URL
-        http://github.com/bloomberg/ntf-core
+        http://github.com/joao-cognition/ntf-core-c-
     LANGUAGES
         C CXX
 )

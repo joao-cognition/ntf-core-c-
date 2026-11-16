@@ -34,7 +34,7 @@ BSLS_IDENT_RCSID(ntcdns_vocabulary_cpp, "$Id$ $CSID$")
 #include <bsl_limits.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 const bdlat_EnumeratorInfo Classification::ENUMERATOR_INFO_ARRAY[] = {

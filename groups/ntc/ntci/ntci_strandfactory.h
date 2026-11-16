@@ -24,7 +24,7 @@ BSLS_IDENT("$Id: $")
 #include <ntcscm_version.h>
 #include <bsl_memory.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Provide an interface to create strands.
@@ -48,5 +48,5 @@ class StrandFactory
 };
 
 }  // end namespace ntci
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif

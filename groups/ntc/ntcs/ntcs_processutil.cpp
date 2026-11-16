@@ -81,7 +81,7 @@ BSLS_IDENT_RCSID(ntcs_processutil_cpp, "$Id$ $CSID$")
 #error Not implemented
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 #if defined(BSLS_PLATFORM_OS_UNIX)

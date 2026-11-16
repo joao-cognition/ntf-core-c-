@@ -27,7 +27,7 @@
 #include <bslmt_semaphore.h>
 #include <bslmt_threadgroup.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
 namespace example {
 

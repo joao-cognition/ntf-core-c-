@@ -22,7 +22,7 @@ BSLS_IDENT_RCSID(ntca_connectstrategy_cpp, "$Id$ $CSID$")
 #include <bsls_assert.h>
 #include <bsl_ostream.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntca {
 
 int ConnectStrategy::fromInt(ConnectStrategy::Value* result, int number)
@@ -80,4 +80,4 @@ bsl::ostream& operator<<(bsl::ostream& stream, ConnectStrategy::Value rhs)
 }
 
 }  // close namespace ntca
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

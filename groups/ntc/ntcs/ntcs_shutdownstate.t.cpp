@@ -22,9 +22,9 @@ BSLS_IDENT_RCSID(ntcs_shutdownstate_t_cpp, "$Id$ $CSID$")
 
 #include <ntci_log.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 // Provide tests for 'ntcs::ShutdownState'.
@@ -509,4 +509,4 @@ NTSCFG_TEST_FUNCTION(ntcs::ShutdownStateTest::verifyCase3)
 }
 
 }  // close namespace ntcs
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

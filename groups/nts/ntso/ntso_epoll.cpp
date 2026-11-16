@@ -120,7 +120,7 @@ BSLS_IDENT_RCSID(ntso_epoll_cpp, "$Id$ $CSID$")
                    (handle),                                                  \
                    (error).text().c_str())
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntso {
 
 /// @brief @internal

@@ -44,7 +44,7 @@ BSLS_IDENT_RCSID(ntcs_compat_cpp, "$Id$ $CSID$")
 #define NTCS_COMPAT_CONFIGURE_ZERO_COPY 0
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 void Compat::sanitize(ntca::InterfaceConfig* config)

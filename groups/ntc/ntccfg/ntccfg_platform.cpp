@@ -57,7 +57,7 @@ extern char** environ;
 // clang-format on
 #endif
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntccfg {
 
 int Platform::initialize()

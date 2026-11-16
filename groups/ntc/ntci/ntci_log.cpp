@@ -47,7 +47,7 @@ BSLS_IDENT_RCSID(ntci_log_cpp, "$Id$ $CSID$")
 // the custom formatting functions.
 #define NTCI_LOG_VSPRINTF 1
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntci {
 
 /// Describe the process-wide log state.

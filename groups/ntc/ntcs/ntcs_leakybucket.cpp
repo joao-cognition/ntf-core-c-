@@ -20,7 +20,7 @@ BSLS_IDENT_RCSID(ntcs_leakybucket_cpp, "$Id$ $CSID$")
 
 #include <bsl_c_math.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcs {
 
 /// Return the number of units that would be drained from a leaky bucket

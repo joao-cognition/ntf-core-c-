@@ -45,7 +45,7 @@
 
 // #define NTCDNS_RESOLVER_LOG_VERBOSE 0
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcdns {
 
 const bool Resolver::k_DEFAULT_HOST_DATABASE_ENABLED = false;

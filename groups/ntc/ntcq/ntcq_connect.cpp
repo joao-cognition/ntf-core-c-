@@ -25,7 +25,7 @@ BSLS_IDENT_RCSID(ntcq_connect_cpp, "$Id$ $CSID$")
 #include <bdlf_memfn.h>
 #include <bdlf_placeholder.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntcq {
 
 ConnectCallbackEntry::ConnectCallbackEntry(bslma::Allocator* basicAllocator)

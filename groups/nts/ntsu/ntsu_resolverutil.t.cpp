@@ -20,9 +20,9 @@ BSLS_IDENT_RCSID(ntsu_resolverutil_t_cpp, "$Id$ $CSID$")
 
 #include <ntsu_resolverutil.h>
 
-using namespace BloombergLP;
+using namespace BNP_Paribas;
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsu {
 
 // Provide tests for 'ntsu::ResolverUtil'.
@@ -784,4 +784,4 @@ const ntsa::Port ResolverUtilTest::k_IANA_SERVICE_TCP_PORT = 9;
 const ntsa::Port ResolverUtilTest::k_IANA_SERVICE_UDP_PORT = 9;
 
 }  // close namespace ntsu
-}  // close namespace BloombergLP
+}  // close namespace BNP_Paribas

@@ -22,7 +22,7 @@ BSLS_IDENT("$Id: $")
 #include <ntscfg_platform.h>
 #include <ntsscm_version.h>
 
-namespace BloombergLP {
+namespace BNP_Paribas {
 namespace ntsd {
 
 /// @internal @brief
@@ -80,5 +80,5 @@ struct MessageType {
 bsl::ostream& operator<<(bsl::ostream& stream, MessageType::Value rhs);
 
 }  // end namespace ntsd
-}  // end namespace BloombergLP
+}  // end namespace BNP_Paribas
 #endif
